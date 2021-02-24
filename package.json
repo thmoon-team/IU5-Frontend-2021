@@ -1,0 +1,36 @@
+{
+  "name": "frontendiu",
+  "version": "1.0.0",
+  "description": "Frontend course from Rubick with Aganim Scepter and Yuriy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonVadimon/IU5-Frontend-2021.git"
+  },
+  "keywords": [
+    "JS",
+    "React",
+    "frontend"
+  ],
+  "author": "Khizhnyakov Vadim, IU5-45",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DonVadimon/IU5-Frontend-2021/issues"
+  },
+  "homepage": "https://github.com/DonVadimon/IU5-Frontend-2021#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
