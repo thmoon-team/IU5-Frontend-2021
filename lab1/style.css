@@ -1,3 +1,48 @@
 body {
-    background: rgb(36, 248, 255);
+    background: #ffffff;
+    min-height: 200vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.starting {
+    background: url('img/whitebg.jpg') no-repeat center center fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.wrapper {
+    align-self: flex-start;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 300px) {
+    .wrapper {
+        width: 40%;
+    }
+    .starting {
+        width: 100vw;
+    }
+}
+
+.starting-text {
+    margin: 0 0 0 10%;
+    color: #000;
+}
+
+.starting-text h1 {
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+.starting-text blockquote {
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 300;
 }
