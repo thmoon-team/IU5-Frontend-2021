@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="starting">
+    <div class="starting" id="start-block">
         <div class="wrapper">
             <div class="starting-text">
                 <h1>Герой, изменивший мир</h1>
@@ -18,8 +18,64 @@
             </div>
         </div>
     </div>
-    <div class="foreword">
-        
+    <div class="nav-wrapper" id="nav-block">
+        <nav class="navbar">
+            <ul>
+                <li class="nav-item"><a href="#foreword-id">Предисловние</a></li>
+                <li class="nav-item"><a href="#pluses-id">Плюсы и минусы</a></li>
+                <li class="nav-item"><a href="">Способности</a></li>
+                <li class="nav-item"><a href="">Тактика</a></li>
+                <li class="nav-item"><a href="">Артефакты</a></li>
+                <li class="nav-item"><a href="">Заключение</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="foreword container" id="foreword-id">
+        <h1 class="block-h">Предисловие</h1>
+        <div class="foreword-wrapper">
+            <div class="foreword-img">
+                <img src="img/foreword.jpg" alt="#">
+            </div>
+            <p class="foreword-text">
+                <a href="https://dota2.ru/heroes/pudge/" target="_blank"><span>PUDGE</span></a> - универсальный герой,
+                им можно играть на всех ролях, собирать почти все предметы и быть полезным на
+                любой стадии игры! Разнообразие... Это то, чего не хватает большинству героев. Он не привязан к
+                определенным артефактам и поэтому, играя за него снова и снова, ты, уважаемый пользователь dota2.ru, не
+                заскучаешь! :) В этом гайде я не буду навязывать определенные билды. Лишь показываю возможности и
+                потенциал героя, даю вам пищу для размышлений. Читаем, оцениваем, спасибо :)
+            </p>
+        </div>
+    </div>
+    <div class="container pluses" id="pluses-id">
+        <h1 class="block-h" style="margin-bottom: 0px;">Плюсы и минусы</h1>
+        <div class="pluses-wrapper">
+            <div id="pluses-list">
+                <ul>
+                    <li>На 1-ом уровне имеем 700 хп</li>
+                    <li>Сразу 2 спелла действуют сквозь неуязвимость к магии: <img class="inline-icon"
+                            src="img/black_king_bar.jpg" alt="black_king_bar"> Black King Bar и т.п.</li>
+                    <li>Навсегда получаем +50 хп за смерть врага в радиусе 450 на 4 уровне способности <img
+                            class="inline-icon" src="img/flesh_heap.jpg" alt="flesh_heap"> Flesh Heap</li>
+                    <li>Можем засуецидиться с помощью <img class="inline-icon" src="img/rot.jpg" alt="rot"> Rot, лишив
+                        соперника опыта и золота. Суецид сокрощает время воскрешения на 50%</li>
+                    <li>Убивает в соло 50+% героев в Dota</li>
+                </ul>
+                <div class="">
+                    <span><i>Ну разве это минусы?</i></span>
+                </div>
+            </div>
+            <div id="minuses-list">
+                <ul>
+                    <li>Начальная скорость передвижения меньше 300, очень медленно</li>
+                    <li>Очень мало МП на всех стадиях игры</li>
+                    <li>Нет эскейпа</li>
+                    <li>Мало брони, придется что-то докупить</li>
+                </ul>
+                <div class="pluses-img">
+                    <img src="img/plusimg.png" alt="pudge">
+                </div>
+            </div>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
