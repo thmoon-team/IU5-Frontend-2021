@@ -1,0 +1,37 @@
+/* доп. Шрифты: Sacramento, Akaya Telivigala, Cookie, Knewave */
+
+body {
+    margin: 20;
+    padding: 20;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+    color: rgba(33, 12, 34);
+    background-color: white;
+  }
+span {
+    font-weight: bold;
+    font-family: "Knewave", sans-serif;
+}
+
+body #about {
+    font-size: 1.5em;
+    font-family: "Cookie", sans-serif;
+    color:maroon;
+    width: 350px;
+}
+
+.semaphor-el img {
+    width: 500px;
+    min-height: 280px;
+} 
+.semaphor-el .big-picture img{
+    height: 500px;
+}
+
+div {
+    background-color: #b3f5f5;
+}
+a::after {
+    content: "_";
+}
