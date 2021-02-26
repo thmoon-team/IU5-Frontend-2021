@@ -1,0 +1,169 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 26px;
+    font-size: 19px;
+    color: rgb(58, 50, 50);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.main-container, .post-container{
+    margin-left: 29%;
+    margin-right: 29%;
+}
+
+#theme{
+    text-align: center;
+}
+
+#authors{
+    text-align: center;
+}
+
+#authors > span{
+    opacity: 0.7;
+}
+
+.from{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.pre-container > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    margin-bottom: 60px;
+}
+
+.summary{
+    font-size: 15px;
+    margin-bottom: 60px;
+    color: #393939;
+    opacity: 0.8;
+}
+
+.pre-container > h1{
+    color: black;
+    opacity: 85%;
+}
+
+.article > h1{
+    font-size: 24px;
+    margin-left: 45px;
+    margin-right: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.article > h2 {
+    font-size: 20px;
+}
+
+.article > h3{
+    font-size: inherit;
+}
+
+.foto-block {
+    float: left;
+    width: 230px;
+    margin: 10px 50px 30px 0px;
+}
+
+.foto-block > img {
+    max-width: 230px;
+    margin: 10px 40px 10px 0px;
+}
+
+.foto-block > h2 {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.foto-block > p {
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.post-container > table {
+    text-align: center;
+    color: black;
+    width: 500px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.container {
+  padding: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #c70c0c;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 16px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: rgb(18, 19, 20);
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+footer, .source_file > a{
+    margin-top: 40px;
+    height: 100px;
+    background-color: rgb(43, 40, 40);
+    font-size: 15px;
+    color: ivory;
+    text-align: center;
+}
+
+.source_file{
+    padding-top: 30px;
+}
