@@ -1,0 +1,133 @@
+ body {
+     background: rgba(224, 189, 136, 0.39);
+ }
+ 
+ .registr_form {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+     flex-direction: row;
+     padding-bottom: 4em;
+ }
+ 
+ .article {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+     flex-direction: row;
+     padding-bottom: 4em;
+ }
+ 
+ h1 {
+     font-size: 4rem;
+     color: rgb(92, 66, 18);
+ }
+ 
+ h2 {
+     font-size: 1.5rem;
+     color: rgb(59, 43, 11);
+ }
+ 
+ .letter {
+     color: rgb(71, 50, 11);
+     font-size: 200%;
+     font-family: serif;
+     position: relative;
+     top: 5px;
+ }
+ 
+ .image {
+     display: inline-block;
+     width: 500px;
+     height: 500px;
+ }
+ 
+ #img1 {
+     /*display: inline-block;*/
+     right: 0;
+     /* Положение элемента от правого края */
+     width: 500px;
+     /* Ширина блока */
+     padding: 5px;
+     /* Поля вокруг текста */
+     background: #aa8d4f44;
+     margin-top: 1em;
+ }
+ 
+ .container {
+     padding: 16px;
+ }
+ /* Full-width input fields */
+ 
+ .container_signin {
+     height: 20px;
+     text-align: center
+ }
+ 
+ input[type=text],
+ input[type=password] {
+     width: 100%;
+     padding: 10px;
+     margin: 5px 0 22px 0;
+     display: inline-block;
+     border: none;
+     background: #9b794d6e;
+ }
+ 
+ input[type=text]:focus,
+ input[type=password]:focus {
+     background-color: #ddd;
+     outline: none;
+ }
+ /* Overwrite default styles of hr */
+ 
+ hr {
+     border: 1px solid #f1f1f1;
+     margin-bottom: 25px;
+ }
+ /* Set a style for the submit/register button */
+ 
+ .registerbtn {
+     background-color: #4CAF50;
+     color: white;
+     padding: 15px 18px;
+     margin: 8px 0;
+     border: none;
+     cursor: pointer;
+     width: 100%;
+     opacity: 0.9;
+ }
+ 
+ .registerbtn:hover {
+     opacity: 1;
+ }
+ 
+ a {
+     color: rgb(111, 128, 18);
+ }
+ /* Set a grey background color and center the text of the "sign in" section */
+ 
+ .signin {
+     background-color: #bd9e7094;
+     text-align: center;
+ }
+ 
+ p {
+     color: rgb(46, 33, 9);
+     font-size: 23px;
+ }
+ 
+ .registr_txt {
+     font-size: 15px;
+ }
+ 
+ #registr_h1 {
+     font-size: 2rem;
+     margin-top: 1.5em;
+ }
+ 
+ .table {
+     color: rgb(46, 33, 9);
+ }
