@@ -54,7 +54,7 @@ body {
     display        : flex;
     justify-content: center;
     background     : var(--light-red);
-    z-index: 99999;
+    z-index        : 99999;
 }
 
 .navbar {
@@ -377,7 +377,7 @@ footer {
     float        : left;
     font-size    : 3em;
     border-bottom: 6px solid var(--light-red);
-    margin-bottom: 1em;
+    margin       : 1em 0 0.5em 0;
 }
 
 .textbox {
@@ -404,6 +404,10 @@ footer {
     width     : 80%;
     float     : left;
     margin    : 0 10px;
+}
+
+.textbox input::placeholder {
+    color: #dddcdc;
 }
 
 .btn {
