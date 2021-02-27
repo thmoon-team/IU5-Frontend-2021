@@ -31,7 +31,7 @@ p {
 }
 
 .fraimforfield {
-    width: 15em;
+    width: 10em;
     padding-left: 12px;
     padding-right: 12px;
     margin-bottom: auto;
@@ -65,15 +65,17 @@ caption {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
 }
 
-caption:before,
-caption:after {
-    background-image: url(https://i.pinimg.com/736x/47/67/67/476767069492ff1380d147c54aae9ec3.jpg);
-    background-size: 30px 30px;
-    width: 30px;
-    height: 30px;
+caption:before {
+    background-image: url(https://static.my-shop.ru/product/f2/304/3033278.jpg);
+    background-size: 110px 140px;
+    width: 110px;
+    height: 140px;
     display: block;
     margin: 0 10px;
     content: "";
+    position: relative;
+    top: 100px;
+    left: -5px;
 }
 
 th {
