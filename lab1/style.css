@@ -1,0 +1,45 @@
+h1 {
+  font-size: 34pt; /* Размер шрифта в пунктах */
+  font-family:  Gill Sans, sans-serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+  text-align: center;
+}
+
+h1:hover {
+    color: #3b4f05; /* Цвет при наведении на них курсора мыши */
+}
+
+h2 {
+  font-size: 24pt; /* Размер шрифта в пунктах */
+  font-family:  Gill Sans, sans-serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+  text-align: center;
+}
+
+.text-block {
+  font-size: 14pt; /* Размер шрифта в пунктах */
+  font-family:  Gill Sans, sans-serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+  margin-left: 20%; /* Отступ слева в % */
+  margin-right: 20%; /* Отступ справа в % */
+  /*text-align: center;*/
+}
+
+.padding {
+	padding-bottom: 10px; 
+	padding-top: 10px; 
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.link {
+  font-size: 14pt; /* Размер шрифта в пунктах */
+  font-family:  Gill Sans, sans-serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+  margin-left: 60%; /* Отступ слева в % */
+}
+
+.italic {
+	font-style: italic;
+	font-weight: large;
+}
