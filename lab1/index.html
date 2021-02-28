@@ -1,15 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Форум</title>
 </head>
 
 <body>
-    lab1
+  <div id="container">
+  	<h1 id="header", align="center">Абсурдопедия: обо всем и сбоку бантик</h1>
+
+  	<div id="sidebar">
+    <form>
+      <h2>Личный кабинет</h2>
+      <p>Чтобы добавить статью в избранное, написать свою или отредактировать чужую, зарегистрируйтесь:</p>
+        <hr>
+        <label for="email"><b>Электронная почта</b></label>
+        <input type="text" placeholder="Введите мыло" name="email" required>
+        <label for="psw"><b>Придумайте пароль</b></label>
+        <input type="password" placeholder="Пароль" name="psw" required>
+        <label for="psw-repeat"><b>Повторите пароль</b></label>
+        <input type="password" placeholder="А то могли ошибиться" name="psw-repeat" required>
+        <label for="email"><b>Выберете, что собираетесь делать:</b></label>
+        <select style="width:70%" required>
+          <option> Просто читать </option>
+          <option> Читать и редактировать (1$/мес) </option>
+          <option> Читать, редактировать, писать (3$/мес) </option>
+        </select>
+        <hr>
+        <p align="center">Регистрируясь, вы подтверждаете, что вы не энергет согласно <a href="https://lurkmore.to/Копипаста:Жареный_суп">Условиям использования</a>.</p>
+        <button type="submit" class="registerbtn">Зарегистрироваться</button>
+        <p align="center">Я уже смешарик.<br><a href="https://lks.bmstu.ru/">Войти</a>.</p>
+    </form>
+  	</div>
+
+  	<div id="content">
+      <h2 style="margin: 20px; float: center">Мордорский Генератор Технологических Ужасов имени Н. Е. Дауна</h2>
+      <div class="epigraph"><b> МГТУ — когда знания приносят страх...</b><span="epig"> ~девиз Мордора~</span></div>
+      <img style="float: fixed; width:70%", src="src/epigraph2.jpg">
+      <div id="clear">
+    	</div>
+      <p align=”center”><b>Мордорский Генератор Технологических Ужасов имени Н. Е. Дауна </b>— первый и знаменитейший техногенный университет в России, обучающий будущих техногеников магии. Назван в честь знаменитого джедая <a href="https://ru.wikipedia.org/wiki/Бауман,_Николай_Эрнестович", title="Н. Э. Бауман, революционер">Н. Е. Дауна</a>, зверски убитого лопатой по причине пердечного сриступа при ректоре Горохе II и похороненного под своей ногой в огородике за главным зданием МГТУ.</p>
+      <p>Над главным входом установлены шесть статуй, символизирующих шесть стихий магии: огонь <sup>(бензин)</sup>, воду <sub>(водку)</sub>, землю, воздух, электричество и астрал. При поступлении абитуриент должен прикоснуться к одной из них и выбрать свой путь.</p>
+
+      <img style="float: fixed; width:70%", src="src/six-1.jpg">
+
+      <table style="margin: 0; width: 50%">
+         <tr>
+             <th align="left">Факультет</th>
+             <th align="left">Расшифровка</th>
+         </tr>
+         <tr>
+             <td><b>МТ</b></td>
+             <td>Магические технологии</td>
+         </tr>
+         <tr>
+             <td><b>ИУ</b></td>
+             <td>Инфернальное управление</td>
+         </tr>
+         <tr>
+             <td><b>РК</b></td>
+             <td>Разогнанные каббалисты</td>
+         </tr>
+         <tr>
+             <td class="energo"><b>Э</b></td>
+             <td class="energo">Энергомантия, им. <a href="https://www.tesla.com/", title="электркар">Н(етрадиционного). Теслы</a></td>
+         </tr>
+         <tr>
+             <td><b>ФН</b></td>
+             <td>Функциональные начала</td>
+         </tr>
+         <tr>
+             <td><b>СМ</b></td>
+             <td>Сокровенная магия</td>
+         </tr>
+         <tr>
+             <td><b>РЛ</b></td>
+             <td>Разрушительные лучи</td>
+         </tr>
+         <tr>
+             <td><b>БМТ</b></td>
+             <td>Био-Магические Тантристы</td>
+         </tr>
+         <tr>
+             <td><b>АК</b></td>
+             <td> Астральные Клерики</td>
+         </tr>
+         <tr>
+             <td><b>ИБМ</b></td>
+             <td>Индивиды Без Магии</td>
+         </tr>
+     </table>
+  	</div>
+
+
+
+  </div>
+
+
 </body>
 
 </html>

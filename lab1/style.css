@@ -1,0 +1,109 @@
+.epigraph {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 4px dotted DarkKhaki;
+  font-style: italic;
+  color: rgb(77, 70, 47);
+  float: right;
+  position:sticky;
+  left: 50px;
+}
+
+
+table {
+   border-collapse: collapse;
+   border: 1px solid grey;
+ }
+
+ th{
+   font-weight: bolder;
+   border: 3px solid grey;
+ }
+
+ td {
+    border: 2px solid grey;
+ }
+
+ #container {
+      background: #FFD700;
+      margin: auto auto;
+      /*text-align: center;*/
+      width: 80%;
+      height: 400px;
+ }
+
+ #sidebar {
+      padding: 1%;
+      background: #a9b4db;
+      float: right;
+      width: 18%;
+      height: auto;
+ }
+
+ #content {
+      background: white;
+      float: right;
+      width: 80%;
+      height: 100;
+ }
+
+ #clear {
+     clear: both;
+}
+
+#header {
+  border: 4px double #778cd9;
+  padding: 10px;
+  position: static;
+  margin: 0;
+  background: #90a1de;
+}
+
+input {
+  width: 70%;
+}
+
+button{
+  align-items: center;
+}
+
+body {
+  font-family: arial;
+  font-size: 16px;
+}
+
+span.epig{
+  color: rgb(140, 127, 81);
+}
+
+p {
+  text-indent: 20px;
+}
+
+#header:hover {
+  color: pink;
+  background: green;
+  text-shadow: 3px 3px 3px grey;
+}
+
+#header::first-letter{
+  color: pink;
+  font-size: 2em;
+}
+
+.epigraph:hover {
+  background-image: url("src/mordor.jpg");
+  background-size: 100%;
+  color: white;
+  text-shadow: 3px 3px 3px grey;
+}
+
+.energo:hover {
+  background-image: url("src/lol.gif");
+  background-size: 100%;
+  color: white;
+  text-shadow: 3px 3px 3px grey;
+}
