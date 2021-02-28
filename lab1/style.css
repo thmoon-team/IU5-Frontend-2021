@@ -1,0 +1,189 @@
+/* край рабочего окна 1400 */
+/* фото для галлереи: 900*563 */
+
+
+.textHeaderClass {
+    display: block;
+    color: rgb(19, 80, 19);
+    letter-spacing: 15px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.quoteClass {
+    display: block;
+    width: 550px;
+    color: rgb(13, 34, 17);
+    font-family: Calibri;
+    font-style: oblique;
+    text-align: right;
+    font-size: 20px;
+    margin-left: 850px;
+    margin-top: 30px;
+}
+
+.authorClass {
+    display: block;
+    width: 550px;
+    color: rgb(0, 0, 0);
+    font-family: Calibri;
+    font-weight: bold;
+    text-align: right;
+    font-size: 16px;
+    margin-left: 850px;
+    margin-bottom: 15px;
+    
+}
+.textNameClass {
+    display: block;
+    color: darkolivegreen;
+    font-family: Calibri;
+    letter-spacing: 8px;
+    font-size: 2em;
+   
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.textNameClass::before {
+    content: "• ";
+    margin-left: 100px;
+}  
+
+.imgClass {
+    display: inline-block;
+    width: 568px;
+    margin-top: 15px;
+    margin-left: 132px;
+}
+
+.captionImgClass {
+    display: inline-block;
+    margin-left: 132px;
+    width: 568px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Calibri;
+    font-style: oblique;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.textClass {
+    display: block;
+    width: 1268px;
+    color: #000000;
+    font-family: lucida sans unicode;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 132px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-top: 50px;
+    color: rgb(19, 80, 19);
+    font-family: Calibri;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.tableClass {
+    font-family: Lucida Sans Unicode;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #ECE9E0;
+    color: #656665;
+    border: 16px solid #ECE9E0;
+    border-radius: 20px;
+}
+
+a:hover {
+    color:hotpink;
+}   
+
+a:visited {
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+#infTableID {
+    display: inline-block;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: Calibri;
+    font-style: oblique;
+    font-size: 16px;
+    padding-left: 330px;
+    color: rgb(0, 0, 0);
+}
+
+
+*{box-sizing: border-box;}
+
+
+form {
+    max-width: 580px;
+    min-width: 580;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #ECE9E0;
+    border-radius: 8px;
+}
+
+h3 {
+    color: darkolivegreen;
+    font-family: Calibri;
+    font-weight: normal;
+    display: block;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+label {
+    color: black;
+    font-family: Calibri;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    border: none;
+    font-size: 16px;
+    height: auto;
+    outline: 0;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+    background-color: #abb4a950;;
+    color: #314935;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03);
+    margin-bottom: 30px;
+}
+
+button {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+
+    color: #fff;
+    background-color: rgba(18, 77, 23, 0.7);
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    border-width: thin;
+}

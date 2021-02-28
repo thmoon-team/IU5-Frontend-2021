@@ -1,15 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>St. Petersburg for everyone</title>
 
-<body>
-    lab1
-</body>
+
+    </head>
+
+    <body>
+        <!-- Header -->
+        <video style="display: block; margin-left: 0; width: 100vw;" src="./videoplayback.webm" autoplay loop></video>
+        <h1 class="textHeaderClass">Saint Petersburg</h1>
+
+        <!-- Quote -->
+        <span class="quoteClass">«It was a wonderful night, such a night as is only possible when we are young, dear reader. The sky was so starry, so bright that, looking at it, one could not help asking oneself whether ill-humoured and capricious people could live under such a sky.»‎</span>
+        <span class="authorClass">- Fyodor Dostoevsky about St. Petersburg</span>
+        
+        <!-- Information part -->
+
+        <!-- Part of History -->
+        <span class="textNameClass">History</span>
+        <img class="imgClass" src="./Peter I.jpg" alt="Peter I on the banks of the Neva"></img>
+        <img class="imgClass" src="./start_of_building.jpg" alt="Start of construction od St. Petersburg"></img><br>
+        <span class="captionImgClass"><sub>Peter I on the banks of the Neva</sub></span>
+        <span class="captionImgClass"><sub>Start of construction od St. Petersburg</sub></span>
+        <span class="textClass">St. Petersburg was founded on May 16 (new calendar: May 27) 1703, when Peter the Great seized control of the land surrounding the Neva during a protracted war with Sweden. A simple log cabin – the city’s first living quarters – was constructed on the city’s fortress (Peter and Paul Fortress) shortly after this victory. Despite the settlement’s unpromising location – a swamp – and unforgiving climate, Peter pursued his dream of a northern capital. In a typically Russian paradox, the city that would later become a symbol of cosmopolitan, enlightened Europe was founded in the cruellest of conditions. Its builders, primarily peasants and soliders, were driven hard; many died as a result of Peter’s manic work schedule. Even the city’s first white-collar workers were ordered there, and they weren’t very happy about it, either. In 1712 St. Petersburg became the capital and people started coming on their own account. From around 1741, the beginning of Empress Elizabeth’s reign, Peter’s swamp was simply the place to be. The courts of the empresses were graced by the best European artistic, literary and musical talent, and foreign architects, mainly Italian, built fantastic palaces and awe-inspiring churches. St. Petersburg, envisaged by Peter as Russia’s ‘Window to the West’, finally fulfilled its earlier promise.</span>
+        <!-- Part of Museums -->
+        <span class="textNameClass">Museums</span>
+        <img class="imgClass" src="./history1.png" alt="Mus"></img>
+        <img class="imgClass" src="./history2.png" alt="mus"></img><br>
+        <span class="captionImgClass"><sub>State Hermitage</sub></span>
+        <span class="captionImgClass"><sub>Catherine Palace</sub></span>
+
+        <!-- Table of the most popular museums -->
+        <h2>The most popular museums in St. Petersburg<sup>*</sup></h2>
+        <table class="tableClass" align="center">
+                
+                
+                <tr>
+                <th>Museum name</th>
+                <th>Output</th>
+                <th>Nearest metro station</th>
+                <th>Website<sup>**</sup></th>
+                </tr>
+                <tr><td>State Hermitage Museum</td><td>Monday</td><td>Admiralteyskaya</td><td><a href="https://www.hermitagemuseum.org/wps/portal/hermitage/visitus?lng=ru" target="_blank">Website of State Hermitage Museum</a></td></tr>
+                <tr><td>Catherine Palace</td><td>-</td><td>-</td><td><a href="https://www.tzar.ru/index.php/objects/ekaterininsky" target="_blank">Website of Catherine Palace</a></td></tr>
+                <tr><td>State Russian Museum</td><td>Tuesday</td><td>Gostinyy dvor<br>Nevskiy prospekt</td><td><a href="http://en.rusmuseum.ru" target="_blank">Website of State Russian Museum</a></td></tr>
+                <tr><td>Peter and Paul Fortress</td><td>-</td><td>Gorkovskaya</td><td><a href="https://www.spbmuseum.ru" target="_blank">Website of Peter and Paul Fortress</a></td></tr>
+                <tr><td>St. Isaac's Cathedral</td><td>-</td><td>Admiralteyskaya</td><td><a href="https://cathedral.ru/en/isaac/building" target="_blank">Website of St. Isaac's Cathedral</a></td></tr>
+                <tr><td>Kazan Cathedral</td><td>-</td><td>Nevskiy prospekt</td><td><a href="http://kazansky-spb.ru" target="_blank">Website of Kazan Cathedral</a></td></tr>
+                <tr><td>Savior on the Spilled Blood</td><td>Wednesday</td><td>Nevskiy prospekt</td><td><a href="https://cathedral.ru/en/spas/building" target="_blank">Website of avior on the Spilled Blood</a></td></tr>
+                <tr><td>Faberge Museum</td><td>Friday</td><td>Gostinyy dvor<br>Nevskiy prospekt</td><td><a href="https://fabergemuseum.ru" target="_blank">Website of Faberge Museum</a></td></tr>
+                <tr><td>Russian cruiser «Aurora»</td><td>Monday<br>Tuesday</td><td>Gorkovskaya<br>Ploschad Lenina</td><td><a href="https://navalmuseum.ru/filials/cruiser_aurora" target="_blank">Website of Russian cruiser «Aurora»</a></td></tr>
+                <tr><td>Kunstkamera museum</td><td>Monday</td><td>Admiralteyskaya</td><td><a href="https://www.kunstkamera.ru" target="_blank">Website of Kunstkamera museum</a></td></tr>
+        </table>
+        <p id="infTableID"><sup>* </sup>Most museums close the ticket office an hour earlier.<br><sup>** </sup>Check the information on the official sites! There are closings due to holidays, cleaning days, etc.</p>
+
+        <span class="textNameClass">Personal Area</span>
+        
+        <!-- Form for registration -->
+        <form>
+            <h2>Registration</h2>
+                <h3>Basic information</h3>
+            
+            <label for="name">Name:</label>
+            <input type="text" name="name" maxlength="20"required>
+
+            <label for="email" required>E-mail:</label>
+            <input type="email" name="email">
+                
+                    
+            <label for="password" required>Password:</label>
+            <input type="password" name="password">
+            
+            <label for="select" required>City:</label>
+            <select name="select">
+                <option value="value1" selected>Not indicated</option>
+                <option value="value2">Bangkok</option>
+                <option value="value3">Dubai</option>
+                <option value="value4">Hong Kong</option>
+                <option value="value5">Istanbul</option>
+                <option value="value6">Kuala Lumpur</option>
+                <option value="value7">London</option>
+                <option value="value8">Macau</option>
+                <option value="value9">Moscow</option>
+                <option value="value10">New York</option>
+                <option value="value11">Paris</option>
+                <option value="value12">Singapore</option>
+                <option value="value13">Another city</option>
+            </select>
+
+        <button type="submit" onclick="alert('Thanks for registration!')">Complete registration</button>
+
+        </form>
+
+        <img style="display: block; margin-top: 100px; width: 100vw;" src="./footer.png"></img>
+
+    </body>
 
 </html>
