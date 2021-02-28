@@ -1,0 +1,91 @@
+.Title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20pt;
+    line-height: 70%;
+    letter-spacing: normal;
+}
+
+.Text1 {
+    width: 100%;
+}
+
+a:link {
+    color: #d00000;
+}
+
+a:visited {
+    color: #e2e630;
+}
+
+p {
+    text-indent: 20px;
+}
+
+.letter {
+    color: red;
+    font-size: 200%;
+    font-family: serif;
+    position: relative;
+    top: 5px;
+}
+
+.fraimforfield {
+    width: 10em;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: auto;
+    border: 2px solid #170e8d;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 200%;
+    float: right;
+}
+
+.titleforfield {
+    float: left;
+    margin: 0 3px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #4740ad;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(68, 62, 122);
+}
+
+caption {
+    font-family: annabelle, cursive;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    color: #1d1930;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+}
+
+caption:before {
+    background-image: url(https://static.my-shop.ru/product/f2/304/3033278.jpg);
+    background-size: 110px 140px;
+    width: 110px;
+    height: 140px;
+    display: block;
+    margin: 0 10px;
+    content: "";
+    position: relative;
+    top: 100px;
+    left: -5px;
+}
+
+th {
+    border: 1px solid rgb(68, 62, 122);
+    background-color: rgb(200, 236, 236);
+    width: 150px;
+}
+
+td {
+    border: 1px solid rgb(68, 62, 122);
+    background-color: rgb(228, 250, 250);
+    width: 150px;
+}
