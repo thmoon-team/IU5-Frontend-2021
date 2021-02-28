@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(202, 214, 214);
+   
+   
+}
+.container-1  
+{
+   
+    padding: 2em;
+
+}
+.box-1
+{
+    margin-left: 10px;
+text-align: center;
+color: #281a3f; font-family: ‘Raleway’,sans-serif; font-size: 15px; font-weight: 30; line-height: 40px; margin: 0 0 24px; text-align: center; text-transform: uppercase;
+background-color:rgb(141, 132, 204);
+}
+.box-2
+{
+    text-align: center;
+    background-color: snow;
+    color: #090d0e; font-size: 18px; font-family: ‘Signika’, sans-serif; padding-bottom: 10px; font-weight: 50; line-height: 60px;
+}
+#log{
+   color:blanchedalmond;
+   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.letter
+   {
+    color: red; 
+    font-size: 200%;  
+    font-family: serif; 
+    position: relative; 
+    top: 5px;
+   }
+   .footer
+   {
+    text-align: center;
+    margin:top;
+    width:100%;
+      line-height: 35px;
+       background-color:teal;
+   }
+    
+   .comment
+   {
+    color: rgb(255, 0, 221); 
+    font-size: 200%;  
+    font-family: serif; 
+    position: relative; 
+    top: 5px;
+   }
+   .example_image {
+    width: 900px;
+    height: 200px;
+  }
+  .example_image2 {
+     
+    width: 200px;
+    height: 200px;
+    margin-right: 80%;
+  }
+ .let{
+     opacity: 0.1;
+ }
+ 
+ 
