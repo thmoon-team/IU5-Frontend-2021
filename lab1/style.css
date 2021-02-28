@@ -14,7 +14,8 @@ td{
 color: red;
 text-align: right;
 }
-#my_style_h1{
+#my_style_id{
+    text-align: center;
     color:chartreuse;
 }
 h2{
