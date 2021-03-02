@@ -1,0 +1,195 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.btn {
+  padding: 10px 40px;
+  color: white;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.btn-outline-white {
+  border: 1px solid white;
+  background: none;
+}
+
+.btn-primary {
+  border: 1px solid #4452FE;
+  background: #4452FE;
+}
+
+header {
+  background-color: #111111;
+}
+
+header .navbar {
+  padding: 0.5em 1em;
+}
+
+header .navbar .nav-wrapper {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .navbar #brand-logo {
+  height: 58px;
+}
+
+@media (max-width: 768px) {
+  header .navbar .nav-item .nav-links {
+    display: none;
+  }
+}
+
+header .navbar .nav-item .nav-links .nav-link {
+  text-decoration: none;
+  color: white;
+  margin: 0 25px;
+}
+
+header .navbar .nav-item li {
+  display: inline-block;
+}
+
+header .navbar .nav-item .navbar-toggler {
+  background: none;
+  border: none;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  header .navbar .nav-item .navbar-toggler {
+    display: inline-block;
+    height: 28px;
+  }
+}
+
+.starting-block {
+  background-color: #111111;
+}
+
+.starting-block .start-content .start-h {
+  max-width: 710px;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 88px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0 auto 37px auto;
+  padding-top: 90px;
+}
+
+@media (max-width: 425px) {
+  .starting-block .start-content .start-h {
+    max-width: 324px;
+    margin: auto;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 18px;
+  }
+}
+
+.starting-block .start-content .start-txt {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+  max-width: 584px;
+  margin: 0 auto;
+}
+
+@media (max-width: 425px) {
+  .starting-block .start-content .start-txt {
+    width: calc($mob-l - 100px);
+  }
+}
+
+@media (max-width: 320px) {
+  .starting-block .start-content .start-txt {
+    width: calc($mob-s - 80px);
+  }
+}
+
+.starting-block .start-content .start-btns-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 116px 0 56px 0;
+}
+
+@media (max-width: 425px) {
+  .starting-block .start-content .start-btns-wrapper {
+    padding: 68px 0 76px 0;
+  }
+}
+
+.starting-block .start-content .start-btns-wrapper .start-btns {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 425px) {
+  .starting-block .start-content .start-btns-wrapper .start-btns {
+    flex-direction: column;
+  }
+}
+
+.starting-block .start-content .start-btns-wrapper .start-btns .start-btn {
+  height: 65px;
+  width: 136px;
+}
+
+.starting-block .start-content .start-btns-wrapper .start-btns #start-btn-1 {
+  margin-right: 1em;
+}
+
+@media (max-width: 425px) {
+  .starting-block .start-content .start-btns-wrapper .start-btns #start-btn-1 {
+    margin-bottom: 1em;
+  }
+}
+
+.starting-block .start-bg {
+  background: #111111 url("../img/startingBg.png") no-repeat center center;
+  background-size: contain;
+  height: 840px;
+}
+
+@media (max-width: 425px) {
+  .starting-block .start-bg {
+    height: 436px;
+    background-size: cover;
+  }
+}
