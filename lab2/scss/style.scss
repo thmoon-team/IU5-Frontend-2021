@@ -1022,3 +1022,56 @@ footer {
         }
     }
 }
+
+.visible-nav-links-container {
+    width          : 80%;
+    background     : $start-bg;
+    height         : auto;
+    position       : absolute;
+    top            : 100px;
+    left           : 50%;
+    transform      : translateX(-50%);
+    transition     : all 0.3s linear;
+    z-index        : 100;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+
+    .visible-nav-links {
+        display        : block !important;
+        list-style-type: none;
+        padding        : 0;
+
+        .d-list-item {
+            display: list-item;
+
+            @media (min-width: 440px) and (max-width: $tablet) {
+                display: inline-block;
+                margin : 0 20px;
+            }
+
+            a {
+                color          : white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.hidden {
+    opacity   : 0;
+    transition: opacity 0.2s;
+}
+
+.smooth-padding {
+    transition: padding 0.3s linear;
+}
+
+.smooth-collapse {
+    transform: translateY(0);
+}
+
+.login-btn-visible {
+    display: block;
+}
