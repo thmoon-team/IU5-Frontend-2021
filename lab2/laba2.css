@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Graphik"; 
+    src: url("../fonts/GraphikLCG-Light.ttf"); 
+}
+
+@font-face {
+    font-family: "Graphik-regular"; 
+    src: url("../fonts/GraphikLCG-Regular.ttf"); 
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #181818;
+    color: #ffffff;
+    width: 1579px;
+    text-align: center;
+    font-family: "Graphik", sans-serif;
+}
+
+.button {
+    margin: 0px;
+    width: 136px;
+    height: 65px;
+    padding: 20px 35px;
+    background-color: #181818;
+    color: white;
+    border: 1px solid white;
+    line-height: 25px;
+    font-size: 17px;
+    white-space: nowrap;
+    font-family: "Graphik-regular", sans-serif;
+}
+
+.button-content {
+    width: 65px;
+    height: 45px;
+    overflow: hidden;
+}
+
+.button-blue {
+    background-color: #4452fe;
+    border: none;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 88px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.weight-medium {
+    font-family: "Graphik-regular", sans-serif;
+}
+
+.intro {
+    height: 1675px;
+}
+
+.intro-text {
+    margin: 0;
+    padding: 0px 280px;
+}
+
+.top {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.top img {
+    margin-top: 30px;
+}
+
+.top .top-menu { 
+    margin-top: 47.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top button {
+    /* margin-top: 33px; */
+}
+
+.top-menu h3 {
+    margin: 0px 25.5px;
+}
+
+.intro-text h1 {
+    margin-top: 214px;
+    padding: 0;
+}
+
+.intro-text button{
+    margin-top: 75px;
+}
+
+.features {
+    height: 1112px;
+    padding: 62px 50px  62px 50px;
+    top: 1775px;
+}
+
+.contents {
+    height: 930.52px;
+    padding: 50px 199px 50px 199px;
+    top: 2987px;
+}
+
+.gallery {
+    height: 1016px;
+    padding: 50px 199px 50px 199px;
+    top: 4017.52px;
+}
+
+.partners {
+    height: 484,55px;
+    padding: 50px 20px 50px 20px;
+    top: 5133.52px;
+}
+
+.testimonials {
+    height: 884px;
+    padding: 50px 20px 50px 20px;
+    top: 5718.07px;
+}
+
+.commercial {
+    height: 530px;
+    padding: 80px 0px 80px 0px;
+    top: 6702.07px;
+}
+
+footer {
+    height: 437px;
+    top: 7332.07px;
+    padding: 107px 0px 107px 0 px;
+}
