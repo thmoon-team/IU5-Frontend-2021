@@ -1,0 +1,104 @@
+:root {
+    --dark-background: #181818;
+}
+
+body {
+    background: var(--dark-background);
+    font-family: "Graphik";
+}
+
+flexWrapper {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+flexWrapperBut {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+FlexWrapperDash {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+
+
+.but1Class {
+    padding: 7px 25px;
+    text-align: center;
+    background-color: var(--dark-background);
+    color: white;
+    border: 0; 
+    box-shadow: 0;
+    font-size: 17px;
+    width: 136px;
+    height:65px
+}
+
+.but2Class {
+    font-size:17px;
+    padding: 7px 25px;
+    text-align: center;
+    background-color: var(--dark-background);
+    color: white;
+    border: 2px solid white; 
+    width: 136px;
+    height: 65px
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+.sloganClass {
+    color: white;
+    margin: 100px 0 37px 0;
+    text-align: center;
+    font-style: normal;
+    font-size: 80px;
+
+}
+
+.sloganSmallClass {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+.dashboardClass {
+    position: absolute;
+    z-index: 10;
+}
+
+.gradClasss {
+    position: absolute;
+    top: 50%;
+    background-color: chartreuse;
+    /* background: linear-gradient(to bottom, #fefcea, #f1da36); */
+    z-index: 20;
+    width: 100vw;
+    width: 50%;
+    
+}
+
+
+@font-face {
+    font-family: "Graphik"; 
+    src: url("../lab2/Fonts/Graphik-Regular.ttf") ; 
+    font-style: normal; 
+    font-weight: normal; 
+
+    } 
