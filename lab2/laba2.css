@@ -30,6 +30,12 @@ body {
     position: absolute;
     width: 100%;
 }
+@media (max-width: 549px) {
+    body {
+        width: 549px;
+        overflow-x: hidden;
+    }
+}
 
 .button {
     margin: 0px;
