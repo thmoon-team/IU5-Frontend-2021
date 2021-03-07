@@ -221,7 +221,7 @@
     position: static;
     width: 1552.02px;
     height: 841px;
-    background: url(images/screens.png);
+    background: url(/lab2/images/screens.png);
 }
 
 .Gradient {
@@ -280,7 +280,7 @@
     position: static;
     width: 696px;
     height: 659px;
-    background: url(images/Chat\ Bot.png);
+    background: url(/lab2/images/Chat\ Bot.png);
     filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
 }
 
@@ -290,7 +290,7 @@
     height: 276px;
     left: 547.5px;
     top: 2519.5px;
-    background: url(images/Line\ Chart\ 1.png);
+    background: url(/lab2/images/Line\ Chart\ 1.png);
     filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
 }
 
@@ -501,7 +501,7 @@
     height: 195.18px;
     left: 81.84px;
     top: 367.13px;
-    background: url(images/card1.png);
+    background: url(/lab2/images/card1.png);
     border: 7px solid black;
     box-sizing: border-box;
     border-radius: 4.56393px 4.56393px 0px 0px;
@@ -514,7 +514,7 @@
     height: 316px;
     /* left: 48.5px;*/
     /* top: 3589px; */
-    background: url(images/card2.png);
+    background: url(/lab2/images/card2.png);
     filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
     border-radius: 14px;
     order: 3;
@@ -921,7 +921,7 @@
 .ImageForAlmostTheLast {
     width: 585px;
     height: 370px;
-    background-image: url(images/AlmostTheLast.png);
+    background-image: url(/lab2/images/AlmostTheLast.png);
 }
 
 .TheLastOne {
@@ -1100,7 +1100,7 @@
     .ImageFigmaLand {
         width: 130px;
         height: 50px;
-        background-image: url(images/FigmaLand1.png);
+        background-image: url(/lab2/images/FigmaLand1.png);
         margin: 30px 0px 0px;
     }
     .ButtonLogin {
@@ -1139,7 +1139,7 @@
         margin: 40px 0px 35px 0px;
     }
     .Screens {
-        background-image: url(images/screensMobile.png);
+        background-image: url(/lab2/images/screensMobile.png);
         width: 500px;
         height: 300px;
         margin: 0px 0px 0px -50px;
@@ -1167,7 +1167,7 @@
     .ChatBox {
         width: 330px;
         height: 330px;
-        background: url(images/Chat\ Bot\ 2.png);
+        background: url(/lab2/images/Chat\ Bot\ 2.png);
         margin: 0px 0px 0px -20px;
     }
     .Chart {
@@ -1175,7 +1175,7 @@
         height: 175px;
         top: 1675px;
         left: 80px;
-        background: url(images/Line\ Chart\ 2.png);
+        background: url(/lab2/images/Line\ Chart\ 2.png);
     }
     .TextBlock {
         width: 340px;
@@ -1203,7 +1203,7 @@
     .ImageForCard2 {
         width: 320px;
         height: 250px;
-        background-image: url(images/card22.png);
+        background-image: url(/lab2/images/card22.png);
     }
     .Block2ForCard1 {
         width: 300px;
@@ -1302,7 +1302,7 @@
     .ImageForAlmostTheLast {
         width: 350px;
         height: 250px;
-        background-image: url(images/AlmostTheLast1.png);
+        background-image: url(/lab2/images/AlmostTheLast1.png);
     }
     .TheLastOne {
         background-color: rgb(30, 30, 30, 1);
