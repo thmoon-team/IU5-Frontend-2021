@@ -1,0 +1,1342 @@
+.FigmaLand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    width: 1097px;
+    height: 119px;
+    left: 241px;
+    top: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.ImageFigmaLand {
+    position: static;
+    width: 186px;
+    height: 58px;
+    background-color: rgb(24, 24, 24, 1);
+    background: url(images/figma\ land.png);
+    margin: 0px 10px;
+}
+
+.Menu {
+    background-color: rgb(24, 24, 24, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    position: static;
+    /* left: 593.5px;
+    top: 37.5px; */
+    width: 393px;
+    height: 44px;
+    /* left: calc(50% - 393px/2 + 0.5px); */
+    /* top: calc(50% - 44px/2); */
+}
+
+.MenuMobile {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.TextForMenu {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    background-color: rgb(24, 24, 24, 1);
+    color: #FFFFFF;
+    margin: 0px 10px;
+}
+
+.ButtonLogin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 36px;
+    position: static;
+    width: 148px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    background: rgb(24, 24, 24, 1);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+}
+
+.TextForLogin {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0px 10px;
+}
+
+.MainContainer {
+    display: flex;
+    background-color: rgb(24, 24, 24, 1);
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    width: 1579px;
+    height: 1675px;
+    left: 0px;
+    top: 0px;
+    margin: 0px 0px;
+}
+
+.BlockForTitle0 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: static;
+    width: 729px;
+    height: 196px;
+    left: 425px;
+    top: 50px;
+    margin: 65px 10px 0px 10px;
+}
+
+.Title_0 {
+    width: 709px;
+    height: 176px;
+    top: 214px;
+    left: 10px;
+    font-family: Graphik;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 88px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+}
+
+.BlockForText1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: static;
+    width: 602px;
+    height: 80px;
+    left: 488.5px;
+    top: 263px;
+    margin: 37px;
+}
+
+.Text_1 {
+    position: static;
+    height: 60px;
+    width: 582px;
+    left: 10px;
+    top: 10px;
+    font-family: Graphik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Text_2 {
+    font-family: Graphik;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0px 10px;
+}
+
+.ContainerForButtons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 307px;
+    height: 65px;
+    left: 636px;
+    top: 582px;
+    margin: 60px 0px 35px 0px;
+}
+
+.Button1 {
+    position: static;
+    width: 136px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    background: #4452FE;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+}
+
+.Button2 {
+    position: static;
+    width: 136px;
+    height: 65px;
+    right: 0px;
+    top: calc(50% - 65px/2);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: rgb(24, 24, 24, 1);
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    margin: 10px;
+}
+
+.TextForButtons {
+    position: static;
+    left: 13.16%;
+    right: 13.16%;
+    top: 22.22%;
+    bottom: 22.22%;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.Screens {
+    position: static;
+    width: 1552.02px;
+    height: 841px;
+    background: url(images/screens.png);
+}
+
+.Gradient {
+    position: absolute;
+    width: 1579px;
+    height: 551px;
+    left: 0px;
+    top: 1124px;
+    right: 0px;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+}
+
+.lane {
+    background-color: rgb(24, 24, 24, 1);
+    width: 1579px;
+    height: 100px;
+}
+
+.Features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 62px 50px;
+    position: static;
+    width: 1479px;
+    height: 1112px;
+    /* left: 0px;
+    top: 1775px; */
+    background: #181818;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 100px 0px;
+}
+
+.FrameForFeatures {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 1088px;
+    height: 759px;
+}
+
+.Frame1 {
+    position: static;
+    width: 752px;
+    height: 759px;
+    margin: 80px 30px;
+}
+
+.ChatBox {
+    position: static;
+    width: 696px;
+    height: 659px;
+    background: url(images/Chat\ Bot.png);
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+}
+
+.Chart {
+    position: absolute;
+    width: 400px;
+    height: 276px;
+    left: 547.5px;
+    top: 2519.5px;
+    background: url(images/Line\ Chart\ 1.png);
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+}
+
+.TextBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 269px;
+    height: 196px;
+    left: 1034.5px;
+    top: 2150px;
+    margin: 25px 0px;
+}
+
+.HeadLine {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 204.49px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.Vector {
+    margin: 37px 0px;
+    width: 40px;
+    height: 23.66px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: static;
+    width: 173px;
+    height: 80px;
+    left: 31.49px;
+    top: 0px;
+}
+
+.TextForTitle {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.Paragraphe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: static;
+    width: 269px;
+    height: 116px;
+    left: 0px;
+    top: 80px;
+}
+
+.TextForParagraphe {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.Contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 199px;
+    position: static;
+    width: 1181px;
+    height: 830.52px;
+    background: #181818;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    margin: 100px 0px;
+}
+
+.Cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0px;
+    position: static;
+    width: 985px;
+    height: 624.52px;
+    left: 0px;
+    top: 206px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 44px 0px;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 0px;
+    position: static;
+    width: 476px;
+    height: 624.52px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin: 0px 33px;
+}
+
+.HeadingForCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 288px;
+    height: 152px;
+    left: 94px;
+    top: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.TitleForCard {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: hsl(0, 0%, 0%);
+    margin: 0px 10px 30px;
+}
+
+.TextForCard {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 10px;
+    width: 288px;
+    height: 92px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+}
+
+.ButtonForCard1 {
+    position: static;
+    width: 148px;
+    height: 52px;
+    top: 3492;
+    min-width: 148px;
+    min-height: 52px;
+    background: #4452FE;
+    /* box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15); */
+    margin: 40px 0px 0px;
+}
+
+.ButtonForCard2 {
+    position: static;
+    width: 148px;
+    height: 52px;
+    top: 3492;
+    min-width: 148px;
+    min-height: 52px;
+    background: #4452FE;
+    /* box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15); */
+    margin: 10px 0px 0px;
+}
+
+.TextForButtonForCard {
+    font-family: Graphik;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0px 10px;
+}
+
+.ImageForCard1 {
+    position: static;
+    width: 312.33px;
+    height: 195.18px;
+    left: 81.84px;
+    top: 367.13px;
+    background: url(images/card1.png);
+    border: 7px solid black;
+    box-sizing: border-box;
+    border-radius: 4.56393px 4.56393px 0px 0px;
+    margin: 60px 0px 0px;
+}
+
+.ImageForCard2 {
+    position: static;
+    width: 419px;
+    height: 316px;
+    /* left: 48.5px;*/
+    /* top: 3589px; */
+    background: url(images/card2.png);
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    border-radius: 14px;
+    order: 3;
+    flex-grow: 0;
+    /* margin: 40px 48.5x; */
+}
+
+.Monitor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+}
+
+.Block1ForCard1 {
+    position: static;
+    width: 54.16px;
+    height: 5.02px;
+    /* left: 212.82px;
+    top: 571.44px; */
+    background: #9FA2A5;
+    border-radius: 0px 0px 4.5px 4.5px;
+}
+
+.Block2ForCard1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    width: 405.12px;
+    height: 8.37px;
+    left: 35.44px;
+    top: 571.44px;
+    background: #D8D8D8;
+}
+
+.Block3ForCard1 {
+    position: static;
+    width: 405.12px;
+    height: 4.72px;
+    left: 35.44px;
+    top: 579.81px;
+    background: #9FA2A5;
+    border-radius: 0px 0px 4.5px 4.5px;
+}
+
+.Gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 199px;
+    position: static;
+    width: 1181px;
+    /* width: 1579px; */
+    height: 1016px;
+    background: #181818;
+    order: 3;
+    align-self: stretch;
+    margin: 100px 0px;
+}
+
+.CardsForGallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    position: static;
+    width: 999px;
+    height: 285px;
+    left: 44px;
+    top: 206px;
+    /* order: 1; */
+    margin: 44px 0px;
+}
+
+.CardsForGallery2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    position: static;
+    width: 1087px;
+    height: 285px;
+    left: 44px;
+    top: 206px;
+    /* order: 2; */
+    margin: 44px 0px;
+}
+
+.CardsForGalleryMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    position: static;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.Partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    position: static;
+    width: 1539px;
+    height: 484.55px;
+    background: #181818;
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    margin: 100px 0px;
+}
+
+.BrandsBrands {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 831.97px;
+}
+
+.Brands {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    position: static;
+    width: 277px;
+    /* width: 831.97px; */
+    height: 70.55px;
+    left: 373.52px;
+    top: 262px;
+    flex: none;
+    /* order: 1; */
+    flex-grow: 0;
+    margin: 50px 0px;
+}
+
+.Testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    position: static;
+    width: 1539px;
+    height: 884px;
+    left: 0px;
+    top: 5718.07px;
+    background: #181818;
+    flex: none;
+    order: 5;
+    align-self: stretch;
+    margin: 100px 0px;
+}
+
+.People {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 883px;
+    height: 652px;
+    left: 348px;
+    top: 182px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 50px 0px;
+}
+
+.PeopleBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 430px;
+    height: 652px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 30px;
+}
+
+.PeopleCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    position: static;
+    width: 430px;
+    height: 328px;
+    left: 0px;
+    top: 0px;
+    background: #181818;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.PeopleCard2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    position: static;
+    width: 430px;
+    height: 304px;
+    left: 0px;
+    top: 0px;
+    background: #181818;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.Client {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 162px;
+    height: 50px;
+    left: 40px;
+    top: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.TextClient {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 99px;
+    height: 48px;
+    left: 63px;
+    top: 1px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 13px;
+}
+
+.AvatarClient {
+    width: 50px;
+    height: 50px;
+}
+
+.Link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+    position: static;
+    width: 150px;
+    height: 24px;
+}
+
+.TextLink {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.ParagrapheClient {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 320px;
+    height: 168px;
+    left: 40px;
+    top: 120px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+
+.TextForParagrapheClient {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.AlmostTheLast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    position: static;
+    width: 1579px;
+    height: 530px;
+    left: 0px;
+    top: 6702.07px;
+    background: #181818;
+    flex: none;
+    order: 6;
+    align-self: stretch;
+    margin: 100px 0px;
+}
+
+.ContentOfAlmostTheLast {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    overflow: hidden;
+    position: static;
+    width: 1219px;
+    height: 370px;
+    /* left: calc(50% - 1219px/2);
+    top: 80px; */
+    background: #343434;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 33px;
+}
+
+.LeftContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 17px 94px;
+    position: static;
+    width: 544px;
+    height: 247px;
+    left: 0px;
+    top: 61.5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px -100px 0px 30px;
+}
+
+.TextForAlmostTheLast {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.ButtonForAlmostTheLast {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 36px;
+    position: static;
+    width: 190px;
+    height: 52px;
+    left: 94px;
+    top: 178px;
+    background: #4452FE;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 37px 0px;
+}
+
+.TextForButtonForAlmostTheLast {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.ImageForAlmostTheLast {
+    width: 585px;
+    height: 370px;
+    background-image: url(images/AlmostTheLast.png);
+}
+
+.TheLastOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 107px 0px;
+    position: static;
+    width: 1579px;
+    height: 437px;
+    left: 0px;
+    top: 7332.07px;
+    background: #181818;
+    flex: none;
+    order: 7;
+    align-self: stretch;
+    margin: 100px 0px;
+}
+
+.ContentOfTheLast {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    /* width: 1031px; */
+    height: 223px;
+    left: 274px;
+    top: 107px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.Column {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    padding: 0px;
+    position: static;
+    width: 513px;
+    height: 223px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 199px;
+}
+
+.List {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 121px;
+    height: 223px;
+    left: 0px;
+    top: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 75px;
+}
+
+.TitleForList {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin: 40px 10px;
+}
+
+.LinksForList {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.2px;
+    /* light text */
+    color: #FFFFFF;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px 19px;
+}
+
+.BlockForSocialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 319px;
+    height: 190.99px;
+    left: 712px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 199px;
+}
+
+.LittleBlockForSocialMedia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    left: 0%;
+    right: 44.83%;
+    top: 29.32%;
+    bottom: 47.64%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.ImageSocialMedia {
+    width: 35px;
+    height: 35px;
+}
+
+.TextSocialMedia {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.2px;
+    /* light text */
+    color: #FFFFFF;
+    margin: 0px 10px;
+}
+
+.SocialMedia {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 0px;
+    position: static;
+    width: 170.96px;
+    height: 80.99px;
+    left: 0px;
+    top: 110px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width:550px) {
+    .MainContainer {
+        width: 375px;
+        height: 1000px;
+        overflow: hidden;
+    }
+    .FigmaLand {
+        width: 370px;
+        margin: -40px 0px 0px 0px;
+    }
+    .ImageFigmaLand {
+        width: 130px;
+        height: 50px;
+        background-image: url(images/FigmaLand1.png);
+        margin: 30px 0px 0px;
+    }
+    .ButtonLogin {
+        width: 100px;
+        height: 30px;
+        padding: 10px 20px;
+        margin: 30px 0px 0px;
+    }
+    .BlockForTitle0 {
+        width: 370px;
+        height: 200px;
+    }
+    .BlockForText1 {
+        width: 300px;
+        height: 120px;
+    }
+    .Title_0 {
+        width: 350px;
+        height: 180px;
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .Menu {
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+    .MenuMobile {
+        width: 24px;
+        height: 6px;
+        overflow: visible;
+        margin: 0px 30px 0px 0px;
+    }
+    .ContainerForButtons {
+        flex-direction: column;
+        margin: 40px 0px 35px 0px;
+    }
+    .Screens {
+        background-image: url(images/screensMobile.png);
+        width: 500px;
+        height: 300px;
+        margin: 0px 0px 0px -50px;
+    }
+    .Gradient {
+        width: 375px;
+        height: 150px;
+        top: 907px;
+    }
+    .Features {
+        width: 375px;
+        height: 1350px;
+        overflow: hidden;
+        padding: 0px;
+    }
+    .FrameForFeatures {
+        flex-direction: column;
+        width: 375px;
+        height: 300px;
+    }
+    .Frame1 {
+        width: 340px;
+        height: 270px;
+    }
+    .ChatBox {
+        width: 330px;
+        height: 330px;
+        background: url(images/Chat\ Bot\ 2.png);
+        margin: 0px 0px 0px -20px;
+    }
+    .Chart {
+        width: 200px;
+        height: 175px;
+        top: 1675px;
+        left: 80px;
+        background: url(images/Line\ Chart\ 2.png);
+    }
+    .TextBlock {
+        width: 340px;
+        height: 260px;
+        margin: 25px 0px 25px 50px;
+    }
+    .Contents {
+        width: 375px;
+        height: 1600px;
+        overflow: hidden;
+        padding: 0px;
+    }
+    .Cards {
+        height: 1000px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Card {
+        margin: 20px 33px;
+        width: 330px;
+    }
+    .ImageForCard1 {
+        width: 250px;
+    }
+    .ImageForCard2 {
+        width: 320px;
+        height: 250px;
+        background-image: url(images/card22.png);
+    }
+    .Block2ForCard1 {
+        width: 300px;
+    }
+    .Block3ForCard1 {
+        width: 300px;
+    }
+    .Gallery {
+        width: 375px;
+        height: 1500px;
+        overflow: hidden;
+        padding: 0px;
+    }
+    .CardsForGallery {
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+    .CardsForGallery2 {
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+    .CardsForGalleryMobile {
+        width: 375px;
+        height: 900px;
+        overflow: visible;
+        margin: -100px 0px 50px;
+    }
+    .Partners {
+        width: 375px;
+        height: 800px;
+        overflow: hidden;
+        margin: 0px 0px;
+        padding: 0px;
+    }
+    .BrandsBrands {
+        flex-direction: column;
+        margin: 0px;
+        width: 375px;
+    }
+    .Testimonials {
+        width: 375px;
+        margin: 100px 0px 0px;
+        padding: 0px;
+        overflow: hidden;
+        height: 1600px;
+    }
+    .PeopleBlock {
+        width: 375px;
+        height: 700px;
+        margin: 0px;
+    }
+    .People {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 375px;
+    }
+    .PeopleCard {
+        width: 300px;
+    }
+    .PeopleCard2 {
+        width: 300px;
+    }
+    .ParagrapheClient {
+        width: 270px;
+    }
+    .AlmostTheLast {
+        width: 375px;
+        overflow: hidden;
+        height: 800px;
+        background-color: rgb(30, 30, 30, 1);
+        margin: 0px;
+        padding: 0px;
+        ;
+    }
+    .ContentOfAlmostTheLast {
+        background-color: rgb(30, 30, 30, 1);
+        flex-direction: column;
+        width: 375px;
+        height: 800px;
+        margin: 0px;
+    }
+    .LeftContent {
+        align-items: center;
+        width: 375px;
+        height: 350px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .TextForAlmostTheLast {
+        text-align: center;
+        width: 300px;
+    }
+    .ImageForAlmostTheLast {
+        width: 350px;
+        height: 250px;
+        background-image: url(images/AlmostTheLast1.png);
+    }
+    .TheLastOne {
+        background-color: rgb(30, 30, 30, 1);
+        width: 375px;
+        height: 1300px;
+        overflow: hidden;
+        margin: 0px;
+        padding: 0px;
+    }
+    .ContentOfTheLast {
+        background-color: rgb(30, 30, 30, 1);
+        height: 1100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .Column {
+        width: 375px;
+        height: 900px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .List {
+        width: 375px;
+        height: 300px;
+        margin: 0px 0px;
+    }
+    .TitleForList {
+        margin: 40px 40px;
+    }
+    .LinksForList {
+        margin: 0px 40px 19px;
+    }
+    .BlockForSocialMedia {
+        margin: 20px 0px;
+    }
+}
