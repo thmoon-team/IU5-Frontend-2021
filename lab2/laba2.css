@@ -33,7 +33,10 @@ body {
 @media (max-width: 549px) {
     body {
         width: 549px;
-        overflow-x: hidden;
+        height: 11135px;
+        margin: 0;
+        padding: 0;
+        /* overflow-x: hidden; */
     }
 }
 
@@ -219,11 +222,19 @@ p {
     /* height: 993px; */
     align-items: flex-end;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
+    /* background: #111111 url("../images/lab2/preview_screens.png") no-repeat center center;
+    background-size: contain;
+    height: 840px;
+    z-index: 3; */
 }
 
 .intro-bottom img {
     z-index: 1;
+    overflow-x: hidden;
+    width:max-content;
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 549px) {
@@ -240,8 +251,10 @@ p {
     z-index: 2;
     display: flex;
     height: 551px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%); */
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .features {
@@ -313,6 +326,7 @@ p {
     position: relative;
     bottom: 116px;
     left: 557px;
+    width: 218px;
 }
 
 @media (max-width: 549px) {
