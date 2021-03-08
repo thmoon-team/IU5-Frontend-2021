@@ -1103,7 +1103,7 @@
     margin: 10px 0px;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:1400px) {
     .MainContainer {
         width: 375px;
         height: 1000px;
@@ -1161,7 +1161,7 @@
         margin: 0px 0px 0px -50px;
     }
     .Gradient {
-        width: 375px;
+        width: 100%;
         height: 150px;
         top: 907px;
     }
