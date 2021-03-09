@@ -5,11 +5,360 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>FigmaLand</title>
 </head>
 
 <body>
-    lab2
+    <header>
+        <nav class="navbar">
+            <div class="nav-wrapper">
+                <div class="nav-item"><img src="icons/brandLogo.svg" alt="FigmaLand" id="brand-logo"></div>
+                <div class="nav-item">
+                    <ul class="nav-links">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#product" class="nav-link">Product</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item">
+                    <button id="login-btn" class="btn btn-outline-white" type="submit">Login</button>
+                </div>
+                <div class="nav-item">
+                    <button class="navbar-toggler">
+                        <img src="icons/navbar-toggler-icon.svg" alt="Toggle">
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="starting-block">
+        <div class="start-content">
+            <h1 class="start-h smooth-padding">Work at the speed of thought</h1>
+            <div class="common-txt">
+                <span>
+                    Most calendars are designed for teams.
+                    Slate is designed for freelancers who
+                    want a simple way to plan
+                    their schedule.
+                </span>
+            </div>
+            <div class="start-btns-wrapper">
+                <div class="start-btns">
+                    <button type="submit" class="start-btn btn btn-primary" id="start-btn-1">Try It</button>
+                    <button type="submit" class="start-btn btn btn-outline-white">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <div class="start-bg"></div>
+    </div>
+
+    <div class="features-block">
+        <h1 class="common-h1 features-h1">Features</h1>
+        <div class="common-txt features-txt">
+            <span>
+                Most calendars are designed for teams.
+                Slate is designed for freelancers who want
+                a simple way to plan their schedule.
+            </span>
+        </div>
+        <div class="content-wrapper">
+            <div class="content-row">
+                <div class="features-imgs">
+                    <img src="img/featuresBig.png" alt="featuresBig" class="big-f-img">
+                    <img src="img/featuresSmall.png" alt="featuresSmall" class="small-f-img">
+                </div>
+                <div class="features-wrapper">
+                    <div class="feature">
+                        <div class="feature-heading">
+                            <img src="./icons/feature-1.svg" alt="1" class="f-icon">
+                            <h2 class="feature-h2" id="f-h2-1">A single source of truth</h2>
+                        </div>
+                        <div class="feature-txt small-txt">
+                            <span>
+                                When you add work to your
+                                Slate calendar we automatically
+                                calculate useful insights
+                            </span>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-heading">
+                            <img src="./icons/feature-2.svg" alt="2" class="f-icon">
+                            <h2 class="feature-h2" id="f-h2-2">Intuitive interface</h2>
+                        </div>
+                        <div class="feature-txt small-txt">
+                            <span>
+                                When you add work to your
+                                Slate calendar we automatically
+                                calculate useful insights
+                            </span>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-heading">
+                            <img src="./icons/feature-3.svg" alt="3" class="f-icon">
+                            <h2 class="feature-h2" id="f-h2-3">Or with rules</h2>
+                        </div>
+                        <div class="feature-txt small-txt">
+                            <span>
+                                When you add work to your
+                                Slate calendar we automatically
+                                calculate useful insights
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contents-block">
+        <h1 class="common-h1 contents-h1">Contents</h1>
+        <div class="common-txt contents-txt">
+            <span>
+                We focus on ergonomics and meeting you where you work.
+                It's only a keystroke away.
+            </span>
+        </div>
+        <div class="contents-cards-wrapper">
+            <div class="content-card">
+                <h3 class="content-card-h3">Work</h3>
+                <div class="content-card-txt small-txt">
+                    <span>
+                        Ever wondered if you're too reliant
+                        on a client for work? Slate helps
+                        you identify .
+                    </span>
+                </div>
+                <button class="btn btn-primary" id="signup-content-btn" type="submit">Sign Up</button>
+                <div class="content-card-img-container">
+                    <img src="img/MacbookPro.png" alt="MacbookPro" class="content-card-img" id="macbook-img">
+                </div>
+            </div>
+            <div class="content-card">
+                <h3 class="content-card-h3">Design with real data</h3>
+                <div class="content-card-txt small-txt">
+                    <span>
+                        Ever wondered if you're too reliant
+                        on a client for work? Slate helps
+                        you identify .
+                    </span>
+                </div>
+                <button class="btn btn-primary" id="try-it-content-btn" type="submit">Try It</button>
+                <div class="content-card-img-container">
+                    <img src="img/BoardsNotifications.png" alt="BoardsNotifications" class="content-card-img"
+                        id="dashboard-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery-block">
+        <h1 class="common-h1 gallery-h1">Gallery</h1>
+        <div class="common-txt gallery-txt">
+            <span>
+                We focus on ergonomics and meeting
+                you where you work.
+                It's only a keystroke away.
+            </span>
+        </div>
+        <div class="gallery-imgs-lg-wrapper">
+            <div class="first-row">
+                <div class="gallery-img-container" id="gallery-img-1"></div>
+                <div class="gallery-img-container" id="gallery-img-2"></div>
+                <div class="gallery-img-container" id="gallery-img-3"></div>
+                <div class="gallery-img-container" id="gallery-img-4"></div>
+            </div>
+            <div class="second-row">
+                <div class="gallery-img-container wide-gallery-img" id="gallery-img-5"></div>
+                <div class="gallery-img-container" id="gallery-img-6"></div>
+                <div class="gallery-img-container wide-gallery-img" id="gallery-img-7"></div>
+            </div>
+        </div>
+
+        <div class="gallery-imgs-sm-wrapper">
+            <div class="gallery-img-sm-container" id="gallery-img-sm-1"></div>
+            <div class="gallery-img-sm-container" id="gallery-img-sm-2"></div>
+            <div class="gallery-img-sm-container" id="gallery-img-sm-3"></div>
+            <div class="gallery-img-sm-container" id="gallery-img-sm-4"></div>
+        </div>
+
+        <button type="submit" class="btn btn-outline-white" id="see-more-btn">See more</button>
+    </div>
+
+    <div class="partners-block">
+        <h1 class="common-h1 partners-h1">Partners</h1>
+        <div class="common-txt partners-txt">
+            <span>
+                We focus on ergonomics
+                and meeting you where you work.
+                It's only a keystroke away.
+            </span>
+        </div>
+        <div class="partners-icons-wrapper">
+            <div class="partners-icons-row">
+                <img src="./icons/logos_apple-app-store.svg" alt="logos_apple-app-store" class="partner-icon">
+                <img src="./icons/logos_apiary.svg" alt="logos_apiary" class="partner-icon">
+                <img src="./icons/logos_android-icon.svg" alt="logos_android-icon" class="partner-icon">
+            </div>
+            <div class="partners-icons-row">
+                <img src="./icons/logos_basecamp.svg" alt="logos_basecamp" class="partner-icon">
+                <img src="./icons/logos_airbnb.svg" alt="logos_airbnb" class="partner-icon">
+                <img src="./icons/logos_ibm.svg" alt="logos_ibm" class="partner-icon">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-outline-white" id="all-partnrs-btn">All Partners</button>
+    </div>
+
+    <div class="testimonials-block">
+        <h1 class="common-h1 testimonials-h1">Testimonials</h1>
+        <div class="testimonials-cards-wrapper">
+            <div class="testimonial-card">
+                <div class="testimonial-card-heading">
+                    <img src="./img/testimonial-img-1.png" alt="testimonial-img-1" class="testimonial-img">
+                    <div class="testimonial-headers-wrapper">
+                        <h4 class="testimonial-h4">Claire Bell</h4>
+                        <h5 class="testimonial-h5">Designer</h5>
+                    </div>
+                </div>
+                <div class="testimonial-txt small-txt">
+                    <span>
+                        Slate helps you see how many more days
+                        you need to work to reach your financial
+                        goal for the month and year. Slate helps
+                        you see how many more days
+                        you need to work to reach your financial
+                        goal for the month and year.your financial
+                        goal for the month and year.
+                    </span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-card-heading">
+                    <img src="./img/testimonial-img-2.png" alt="testimonial-img-2" class="testimonial-img">
+                    <div class="testimonial-headers-wrapper">
+                        <h4 class="testimonial-h4">Francisco Lane</h4>
+                        <h5 class="testimonial-h5">Designer</h5>
+                    </div>
+                </div>
+                <div class="testimonial-txt small-txt">
+                    <span>
+                        Slate helps you see how many more days
+                        you need to work to reach your financial
+                        goal for the month and year. Slate helps
+                        you see how many more days
+                        you need to work to reach your financial
+                        goal for the month and year.
+                    </span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-card-heading">
+                    <img src="./img/testimonial-img-3.png" alt="testimonial-img-3" class="testimonial-img">
+                    <div class="testimonial-headers-wrapper">
+                        <h4 class="testimonial-h4">Ralph Fisher</h4>
+                        <h5 class="testimonial-h5">Designer</h5>
+                    </div>
+                </div>
+                <div class="testimonial-txt small-txt">
+                    <span>
+                        Slate helps you see how many more days
+                        you need to work to reach your financial
+                        goal for the month and year. Slate helps
+                        you see how many more days
+                        you need to work to reach your financial
+                        goal for the month and year.
+                    </span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-card-heading">
+                    <img src="./img/testimonial-img-4.png" alt="testimonial-img-4" class="testimonial-img">
+                    <div class="testimonial-headers-wrapper">
+                        <h4 class="testimonial-h4">Jorge Murphy</h4>
+                        <h5 class="testimonial-h5">Designer</h5>
+                    </div>
+                </div>
+                <div class="testimonial-txt small-txt">
+                    <span>
+                        Slate helps you see how many more days
+                        you need to work to reach your financial
+                        goal for the month and year. Slate helps
+                        you see how many more days
+                        you need to work to reach your financial
+                        goal for the month and year.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="adverfisting-block">
+        <div class="advertising-wrapper">
+            <div class="adv-txt-wrapper">
+                <h1 class="common-h1 advertising-h1">
+                    OpenType features
+                    and Variable fonts
+                </h1>
+                <button class="btn btn-primary" id="try-for-free-btn" type="submit">Try For Free</button>
+            </div>
+            <img src="./img/lighnting-fast-prototyping.png" alt="lighnting-fast-prototyping" class="advertising-img">
+            <img src="./img/adv-sm-img.png" alt="adv-sm-img" class="advertising-sm-img">
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="links-container">
+                <div class="link-list">
+                    <h3 class="links-h3">Fingertipe</h3>
+                    <ul class="f-links">
+                        <li class="f-link small-txt">Home</li>
+                        <li class="f-link small-txt">Examples</li>
+                        <li class="f-link small-txt">Pricing</li>
+                        <li class="f-link small-txt">Updates</li>
+                    </ul>
+                </div>
+                <div class="link-list">
+                    <h3 class="links-h3">Resources</h3>
+                    <ul class="f-links">
+                        <li class="f-link small-txt">Home</li>
+                        <li class="f-link small-txt">Examples</li>
+                        <li class="f-link small-txt">Pricing</li>
+                        <li class="f-link small-txt">Updates</li>
+                    </ul>
+                </div>
+                <div class="link-list" id="last-link-list">
+                    <h3 class="links-h3">About</h3>
+                    <ul class="f-links">
+                        <li class="f-link small-txt">Home</li>
+                        <li class="f-link small-txt">Examples</li>
+                        <li class="f-link small-txt">Pricing</li>
+                        <li class="f-link small-txt">Updates</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contacts-container">
+                <div class="contact-row">
+                    <img src="./icons/map-marker.svg" alt="map-marker" class="contact-icon">
+                    <a href="#"><span>7480 Mockingbird Hill undefined</span></a>
+                </div>
+                <div class="contact-row">
+                    <img src="./icons/phone.svg" alt="phone" class="contact-icon">
+                    <a href="tel:+(239) 555-01-08"><span>(239) 555-01-08</span></a>
+                </div>
+                <div class="contact-icons">
+                    <img src="./icons/twitter.svg" alt="twitter" class="contact-icon">
+                    <img src="./icons/facebook.svg" alt="facebook" class="contact-icon">
+                    <img src="./icons/instagram.svg" alt="instagram" class="contact-icon">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
 </body>
 
 </html>
