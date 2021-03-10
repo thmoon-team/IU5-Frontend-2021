@@ -3,6 +3,7 @@ const getMinMax = require('../lab3/2.js');
 const multiplyArray = require('../lab3/3.js');
 const prettySum = require('../lab3/4.js');
 const curry = require('../lab3/5.js');
+const sum = require('../lab3/6.js');
 
 test('capitalize 1', () => {
   expect(capitalize('я вижу солнце')).toBe('Я Вижу Солнце');
@@ -70,4 +71,28 @@ test('Currying 3', () => {
 test('Currying 4', () => {
   const sum3 = (a, b, c) => a + b + c;
   expect(curry(sum3)(1, 2, 3)).toBe(6);
+});
+
+test('SumZum 1', () => {
+  expect(sum(1) + 3).toBe(4);
+});
+
+test('SumZum 2', () => {
+  expect(sum(1)(2) + 3).toBe(6);
+});
+
+test('SumZum 3', () => {
+  expect(sum(1)(2)()).toBe(3);
+});
+
+test('SumZum 4', () => {
+  expect(sum() + 3).toBe(3);
+});
+
+test('SumZum 5', () => {
+  expect(sum()).toBe(0);
+});
+
+test('SumZum 4', () => {
+  expect(sum(1)(2)(3)()).toBe(6);
 });
