@@ -8,7 +8,12 @@
  */
 
 function multiplyArray(arr, n) {
-    // code here
+    for (var i in arr) {
+        if (typeof arr[i] == 'number' && isFinite(arr[i])) {
+            arr[i] *= n;
+        }
+    }
+    return arr;
 }
 
 module.exports = multiplyArray;
