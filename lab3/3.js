@@ -8,7 +8,12 @@
  */
 
 function multiplyArray(arr, n) {
-    // code here
+  for (let i = 0; i < arr.length; i++) {
+    if (Number.isInteger(arr[i])) {
+      arr[i] = Number(arr[i]) * n
+    }
+  }
+  return arr
 }
 
 module.exports = multiplyArray;
