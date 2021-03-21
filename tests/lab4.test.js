@@ -22,7 +22,7 @@ test('getAnagramms 3', () => {
     expect(getAnagramms([])).toEqual([]);
 });
 test('getAnagramms 4', () => {
-    expect(getAnagramms(['мир', '222'])).toEqual([
+    expect(getAnagramms(['222', 'мир'])).toEqual([
         ["222"],
         ["мир"],
     ]);
@@ -43,6 +43,7 @@ test('isPalindrome 4', () => {
 });
 
 test('rle 1', () => {
+    ikjbfx
     expect(rle('AAAB')).toBe('A3B');
 });
 test('rle 2', () => {
@@ -70,18 +71,18 @@ test('get1DArray 2', () => {
 });
 
 
-// test('checkBrackets 1', () => {
-//     expect(checkBrackets('[(<>)]')).toBe(true);
-// });
-// test('checkBrackets 2', () => {
-//     expect(checkBrackets('([)]()<>')).toBe(false);
-// });
-// test('checkBrackets 3', () => {
-//     expect(checkBrackets('[[()]]([])<>')).toBe(true);
-// });
-// test('checkBrackets 4', () => {
-//     expect(checkBrackets('[]')).toBe(true);
-// });
-// test('checkBrackets 5', () => {
-//     expect(checkBrackets('')).toBe(true);
-// });
+test('checkBrackets 1', () => {
+    expect(checkBrackets('[(<>)]')).toBe(true);
+});
+test('checkBrackets 2', () => {
+    expect(checkBrackets('([)]()<>')).toBe(false);
+});
+test('checkBrackets 3', () => {
+    expect(checkBrackets('[[()]]([])<>')).toBe(true);
+});
+test('checkBrackets 4', () => {
+    expect(checkBrackets('[]')).toBe(true);
+});
+test('checkBrackets 5', () => {
+    expect(checkBrackets('')).toBe(true);
+});
