@@ -43,7 +43,6 @@ test('isPalindrome 4', () => {
 });
 
 test('rle 1', () => {
-    ikjbfx
     expect(rle('AAAB')).toBe('A3B');
 });
 test('rle 2', () => {
