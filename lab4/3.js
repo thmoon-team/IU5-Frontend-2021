@@ -18,7 +18,7 @@ function rle(str) {
         else {
             new_arr.push(arr[cur_str]);
             if (cur_kol > 1) new_arr.push(cur_kol.toString()); 
-            if (i != arr.length) cur_str = i;
+            cur_str = i;
             cur_kol = 1;
         }
     }
