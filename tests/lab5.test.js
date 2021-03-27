@@ -11,7 +11,7 @@ test('MyMap 1', () => {
 test('MyMap 2', () => {
     expect([1, 2, 3].myMap(x => x * 3)).toEqual([3, 6, 9]);
 });
-test('MyMap 2', () => {
+test('MyMap 3', () => {
     expect([].myMap(x => x * 3)).toEqual([]);
 });
 

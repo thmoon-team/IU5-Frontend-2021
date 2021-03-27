@@ -70,7 +70,7 @@ test('get1DArray 2', () => {
 });
 
 
-test('checkBrackets 1', () => {
+/*test('checkBrackets 1', () => {
     expect(checkBrackets('[(<>)]')).toBe(true);
 });
 test('checkBrackets 2', () => {
@@ -84,4 +84,4 @@ test('checkBrackets 4', () => {
 });
 test('checkBrackets 5', () => {
     expect(checkBrackets('')).toBe(true);
-});
+});*/
