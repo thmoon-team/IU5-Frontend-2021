@@ -6,3 +6,9 @@
  * [1,2,3].myMap((x) => x*2) -> [2,4,6]
  * Нужно назвать myMap !!!!!
  */
+
+Array.prototype.myMap = function(f) {
+    return this.map((el) => {
+        return f(el);
+    })
+};
