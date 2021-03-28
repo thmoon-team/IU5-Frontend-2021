@@ -7,8 +7,18 @@
  * Примеры:
  * '4 и -6, 2, 1, может 9, 63, -134 и 566]' -> {min: -134, max: 566}
  */
-function getMinMax(str) {
-    // code here
+ function getMinMax(str) {
+    str = String(str).trim();
+    // match - возвращение совпадений по регистру
+    // в регистре ниже: содержит цифры, точку '.', минус '-'
+    // флаг /g - глобальный поиск, чтобы искать каждое вхождение, а не только первое
+    var num = str.match(/[\d|.|\-|\+]+/g);
+    console.log(num);
+    var ma = Math.max(...num);
+    var mi = Math.min(...num);
+    // var max = Math.max(num);
+    //return "{" + '"' + 'mmax' + '"' + ': ' + max + ', ' + '"' + 'min' + '"' + ': ' + min + '}';
+    return { max: ma, min: mi };
 }
 
 module.exports = getMinMax;
