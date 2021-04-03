@@ -7,11 +7,7 @@
  * rle('BCCADDEEEBB') === 'BC2AD2E3B2'
  */
 
-<<<<<<< HEAD
- function rle(str) {
-=======
 function rle(str) {
->>>>>>> 91f101577b01c567f09d39466106137d8e576017
     var arr = str.split('');
     var new_arr = [];
     var cur_str = 0;

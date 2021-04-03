@@ -8,7 +8,5 @@
  */
 
 Array.prototype.myMap = function(f) {
-    return this.reduce((acc, val) => {
-        acc.concat(func(val)), []
-    });
+    return this.reduce((acc, val) => ([...acc, f(val)]), []);
 };
