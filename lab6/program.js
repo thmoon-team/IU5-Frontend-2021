@@ -90,7 +90,7 @@ function Timer() {
     function start() {
         if (runtime) {
             clock += 1;
-            if (clock > 9) clock = 0;
+            if (clock > 59) clock = 0;
             timer.innerHTML = clock;
         }
         setTimeout(start, 1000);

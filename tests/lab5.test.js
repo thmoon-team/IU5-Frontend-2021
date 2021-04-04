@@ -1,4 +1,4 @@
-const curry = require('../lab5/2.js');
+/*const curry = require('../lab5/2.js');
 const customBind = require('../lab5/3.js');
 const memoize = require('../lab5/4.js');
 const makeRoute = require('../lab5/5.js');
@@ -79,4 +79,4 @@ test('makeRoute', () => {
             { from: "N", to: "Z" }
         ]
     );
-});
+});*/
