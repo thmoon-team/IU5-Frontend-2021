@@ -6,7 +6,6 @@ function RectColorChange() {
     }
 }
 
-
 function CustomList() {
     const list_header = document.createElement('button');
     list_header.classList.add('list-header');
@@ -45,8 +44,8 @@ function CreateBall() {
                 if (ball.classList.contains('ball-move')) {
                     var mouseX = 0, mouseY = 0;
                     var limitX = zona.offsetWidth - ball.offsetWidth - 2, limitY = zona.offsetHeight - ball.offsetHeight - 2;
-                    mouseX = Math.min(e.pageX - 25, limitX);
-                    mouseY = Math.min(e.pageY - 200, limitY);
+                    mouseX = Math.min(e.pageX - zona.offsetLeft - ball.offsetWidth / 2, limitX);
+                    mouseY = Math.min(e.pageY - zona.offsetTop - ball.offsetHeight / 2, limitY);
                     if (mouseX < 0) mouseX = 0;
                     if (mouseY < 0) mouseY = 0;
 
@@ -85,14 +84,26 @@ function Timer() {
     const timer = document.createElement('div');
     timer.classList.add('timer');
     timer.textContent = '0';
+    let clock = 0;
+    let runtime = false;
 
-    let time = 0;
-    timer.addEventListener('mouseover', (evt) => {
-        time += 1;
-    })
+    function start() {
+        if (runtime) {
+            clock += 1;
+            if (clock > 9) clock = 0;
+            timer.innerHTML = clock;
+        }
+        setTimeout(start, 1000);
+    }
 
-    timerContainer.addEventListener('mouseout', (evt) => {
-            time = 0;
-    });
+    start();
+    timer.onmouseenter = function() {
+        runtime = true;
+    }
 
+    timer.onmouseleave = function() {
+        runtime = false;
+    }
+
+    document.body.appendChild(timer);
 }

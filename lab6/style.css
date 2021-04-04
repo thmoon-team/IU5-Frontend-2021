@@ -1,7 +1,17 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 .rect {
     width: 100px;
     height: 100px;
     background-color: chartreuse;
+    box-shadow: 0px 0px 1px 1px black inset;
 }
 
 .my-list {
@@ -27,6 +37,7 @@
 }
 
 .list-header {
+    margin-top: 10px;
     background-color: beige;
     border-radius: 2px;
     border: 1px solid black;
@@ -35,9 +46,10 @@
 }
 
 .zona {
+    margin-top: 10px;
     background-color: aqua;
-    width: 200px;
-    height: 200px;
+    width: 800px;
+    height: 800px;
     border: 1px solid black;
     position: relative;
     box-shadow: 0px 0px 3px 3px blue inset;
@@ -55,4 +67,14 @@
 .ball-move {
     border-color: darkblue;
     background-color: aquamarine;
+}
+
+.timer {
+    margin-top: 10px;
+    width: 100px;
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px 0px;
+    border: 3px solid brown;
+    box-shadow: 0px 0px 2px 2px #814500 inset;
 }
