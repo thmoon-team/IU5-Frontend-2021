@@ -2,17 +2,14 @@
 
 //функция рандомного цвета
 function rand_rbg() {
-    let col = Math.round(255.0 * Math.random());
+    let col = Math.floor(256 * Math.random());
     let r = col.toString(16);
     let f = 15;
     f.toString(16);
-    if (r < f) r = '0' + r;
-    col = Math.round(255.0 * Math.random());
+    col = Math.round(256 * Math.random());
     let g = col.toString(16);
-    if (g < f) g = '0' + g;
-    col = Math.round(255.0 * Math.random());
+    col = Math.round(256 * Math.random());
     let b = col.toString(16);
-    if (b < f) b = '0' + b;
     col = '#' + r + g + b;
     console.log(col)
     return col;
@@ -64,10 +61,20 @@ let circle = document.getElementById('circle');
 
 let mouseX = 0;
 let mouseY = 0;
+let g = true;
+let j = true;
 circle.addEventListener('click', () => {
 
     console.log('нажал');
+
     circle.style.position = 'sticky';
+    if (g == false) {
+        mouseY = mouseY + 128 - pageYOffset;
+        circle.style.top = mouseY + 'px';
+        mouseX = mouseX + 296 - pageXOffset;
+        circle.style.left = mouseX + 'px';
+        g = true;
+    }
 
     function move() {
         circle.style.top = mouseY + 'px';
@@ -79,12 +86,22 @@ circle.addEventListener('click', () => {
     });
 
     let timer_id = setInterval(move, 1);
-
+    if (g == false) j = false;
+    else j = true;
     window.addEventListener('keydown', (el) => {
         if (el.keyCode == 27) {
 
             clearInterval(timer_id);
+            circle.style.position = 'relative';
+            if (j) {
 
+                mouseY = mouseY - 128 + pageYOffset;
+                circle.style.top = mouseY + 'px';
+                mouseX = mouseX - 296 + pageXOffset;
+                circle.style.left = mouseX + 'px';
+                g = false;
+                j = false;
+            };
         };
     });
 });

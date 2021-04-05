@@ -10,6 +10,7 @@
     font-family: 'Times New Roman', Times, serif;
     color: black;
     cursor: progress;
+    color: white;
 }
 
 #circleBox {
@@ -18,6 +19,7 @@
     width: 800px;
     height: 800px;
     display: block;
+    background-color: white;
 }
 
 #circle {
@@ -59,8 +61,13 @@ ul.dropdown-list {
     align-items: center;
 }
 
+span#label {
+    width: 378px;
+}
+
 li#label {
     border: honeydew solid 1px;
+    width: 364px;
 }
 
 .list .dropdown-list {
