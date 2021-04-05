@@ -1,0 +1,95 @@
+#squreBox {
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+#timer {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    cursor: progress;
+    color: white;
+}
+
+#circleBox {
+    border: black solid 2px;
+    border-radius: 16px;
+    width: 800px;
+    height: 800px;
+    display: block;
+    background-color: white;
+}
+
+#circle {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: block;
+    position: sticky;
+}
+
+.list {
+    height: 260px !important;
+}
+
+#scroll {
+    overflow-y: hidden;
+    height: 200px !important;
+    overflow-x: hidden;
+}
+
+ul.dropdown-list {
+    padding-left: 0;
+    margin-left: 0;
+    height: 200px;
+}
+
+#label {
+    display: flex;
+    background-color: honeydew;
+    width: 364px;
+    height: 50px;
+    font-size: 38px;
+    color: grey;
+    border: black solid 2px;
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span#label {
+    width: 378px;
+}
+
+li#label {
+    border: honeydew solid 1px;
+    width: 364px;
+}
+
+.list .dropdown-list {
+    /* размер и позиция */
+    top: 100%;
+    width: 350px;
+    margin-top: 0;
+    padding-top: 0;
+    left: 0;
+    /* Size */
+    right: 0;
+    /* Size */
+    /* Стили */
+    background: #fff;
+    font-weight: normal;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.my_pretty_button {
+    background-color: honeydew;
+    border: none;
+    color: grey;
+    font-size: 34px;
+}
