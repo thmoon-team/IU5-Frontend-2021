@@ -1,7 +1,7 @@
-/*const curry = require('../lab5/2.js');
+const curry = require('../lab5/2.js');
 const customBind = require('../lab5/3.js');
 const memoize = require('../lab5/4.js');
-const makeRoute = require('../lab5/5.js');*/
+const makeRoute = require('../lab5/5.js');
 require('../lab5/1.js');
 
 
@@ -15,7 +15,7 @@ test('MyMap 2', () => {
     expect([].myMap(x => x * 3)).toEqual([]);
 });
 
-/*
+
 function add(a, b, c) {
     return a + b + c;
 }
@@ -62,21 +62,20 @@ test('memoize 6', () => {
     expect(memozedAdd(2)).toEqual({ cache: true, result: 4 });
 });
 
-
-test('makeRoute', () => {
-    expect(makeRoute([
-        { from: 'L', to: 'M' },
-        { from: 'M', to: 'N' },
-        { from: 'A', to: 'L' },
-        { from: 'B', to: 'A' },
-        { from: 'N', to: 'Z' },
-    ])).toEqual(
-        [
-            { from: "B", to: "A" },
-            { from: "A", to: "L" },
-            { from: "L", to: "M" },
-            { from: "M", to: "N" },
-            { from: "N", to: "Z" }
-        ]
-    );
-});*/
+// test('makeRoute', () => {
+//     expect(makeRoute([
+//         { from: 'L', to: 'M' },
+//         { from: 'M', to: 'N' },
+//         { from: 'A', to: 'L' },
+//         { from: 'B', to: 'A' },
+//         { from: 'N', to: 'Z' },
+//     ])).toEqual(
+//         [
+//             { from: "B", to: "A" },
+//             { from: "A", to: "L" },
+//             { from: "L", to: "M" },
+//             { from: "M", to: "N" },
+//             { from: "N", to: "Z" }
+//         ]
+//     );
+// });
