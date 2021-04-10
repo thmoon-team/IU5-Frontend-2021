@@ -7,7 +7,7 @@ body {
 
 #er {
     color: white;
-    font-size: 7vw;
+    font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -126,6 +126,11 @@ body {
 @media screen and (max-width: 1000px) {
     #title {
         display: none;
+    }
+    #er {
+        color: white;
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
     }
     .navBar {
         justify-content: space-between;
