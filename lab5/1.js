@@ -7,6 +7,6 @@
  * Нужно назвать myMap !!!!!
  */
 
-Array.prototype.myMap = function(f) {
+ Array.prototype.myMap = function(f) {
     return this.reduce((acc, val) => ([...acc, f(val)]), []);
 };
