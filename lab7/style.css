@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #002044;
+    background-color: rgb(189, 218, 243);
+}
+
+.top {
+    padding: 5px;
+    background-color: #62bae2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top .top_name {
+    color: #002044;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top .search_container {
+    display: flex;
+    align-items: center;
+}
+
+.top #search_city {
+    background-color:#b1d4e6;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.top #search_button {
+    background: url("./img/search.png");
+    width: 100px;
+    height: 30px;
+    box-shadow: 0 0 2px 2px black;
+    background-color: #3d34c2;
+    margin-right: 15px;
+}
+
+.top #search_button:hover {
+    box-shadow: none;
+    background-color: #7585df;
+}
+
+.main {
+    margin: 50px 50px;
+}
+
+.main #weather_current {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    background-color: #7585df;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.weather_current_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.weather_current_top .top_city {
+    display: flex;
+    flex-direction: column;
+}
+
+#current_time {
+    font-size: 25px;
+}
+
+.weather_current_top .temp_info {
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+#cityName {
+    font-size: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.main #weather_other {
+    background-color:#7585df;
+}
+
+.add_container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.add_info {
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    display: block;
+    background: 0 0 url("./img/humidity.png");
+    background-size: cover;
+}
+
+.icon_wind {
+    background: 0 0 url("./img/wind.png");
+    background-size: cover;
+}
+
+.icon_pressure {
+    background: 0 0 url("./img/pressure.png");
+    background-size: cover;
+}
