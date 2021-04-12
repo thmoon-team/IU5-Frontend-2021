@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <title>Моя погода</title>
+</head>
+
+<body style="background-color: #181818;">
+    <div id="navBar" class="navBar">
+        <div id="ico"><img id="icon" src="./img/animated/weather_sunset.svg"></div>
+        <div id="title">
+            My Weather
+        </div>
+        <div id="nav">
+            <input id="inp">
+            <button id="but" value="OK">ok</button>
+        </div>
+    </div>
+    <div id="base" class="base" style="display: none;">
+        <div id="content">
+            <div id="date"><span>Cегодня: </span><span id="day">00.00.2021</span></div>
+            <div id="contentWeather"><span>Температура: </span><span id="wh_val">+0</span></div>
+        </div>
+        <div id="town">
+            <div id="wetherIco"><img id="weather_ico"></div>
+            <div id="name_town">Москва</div>
+        </div>
+        <div id="postcontent">
+            <div id="morning"><span>Максимум: </span><span id="mon_val">+0</span></div>
+            <div id="midday"><span>Минимум: </span><span id="mid_val">+0</span></div>
+            <!-- <div id="evening"><span>Вечером </span><span id="even_val">+0</span></div> -->
+        </div>
+    </div>
+    <div id="er" style="display: none;">
+        <p>Ошибка</p>
+        <p>Пожалуйста, проверьте правильно ли вы ввели город<br> или же я просто не смог получить вашу геолокацию))<br> Тогда просто введите город в поисковую строку и нажмите ок)</p>
+    </div>
+</body>
+<script src="./modules.js">
+</script>
+
+</html>

@@ -1,0 +1,208 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+#er {
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navBar {
+    width: 90%;
+    height: 60px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ico {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icon {
+    width: 60px;
+    height: 50px;
+}
+
+#title {
+    width: 40%;
+    font-family: 'Dela Gothic One';
+    font-size: 38px;
+    font-weight: normal;
+    color: #373737;
+    text-align: center;
+}
+
+#nav {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#inp {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    color: #373737;
+    border-radius: 8px;
+}
+
+#but {
+    font-family: 'Dela Gothic One';
+    font-size: 20px;
+    font-weight: normal;
+    color: #373737;
+    border-radius: 8px;
+    background-color: aliceblue;
+    margin-left: 6px;
+}
+
+#but:hover {
+    background-color: #181818;
+    color: white;
+    border-color: white;
+}
+
+.base {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: space-between;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 48px;
+    width: 100%;
+}
+
+#postcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 38px;
+    width: 80%;
+}
+
+#name_town {
+    font-size: 7vw;
+}
+
+#town {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+
+#weather_ico {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+@media screen and (max-width: 1000px) {
+    #title {
+        display: none;
+    }
+    #er {
+        color: white;
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .navBar {
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #base {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #content {
+        box-sizing: border-box;
+    }
+    #date {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 7vw;
+        width: 30%;
+        box-sizing: border-box;
+    }
+    #contentWeather {
+        font-size: 7vw;
+        width: 30%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #town {
+        width: 100%;
+        justify-content: space-around;
+    }
+    #name_town {
+        font-size: 12vw;
+    }
+    #weather_ico {
+        width: 40vw !important;
+        height: 40vw !important;
+    }
+    #nav {
+        width: 40%;
+        box-sizing: border-box;
+    }
+    #inp {
+        position: relative;
+        width: 70%;
+        font-size: 5vw;
+        padding-bottom: 2px;
+    }
+    #but {
+        position: relative;
+        font-size: 70%;
+        height: 32px;
+        width: 30%;
+        padding: 0;
+        margin-right: 5px;
+    }
+    #postcontent {
+        font-size: 6vw;
+    }
+    #morning {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #midday {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .base {
+        height: 100vw;
+    }
+}
