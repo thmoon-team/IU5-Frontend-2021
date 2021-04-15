@@ -15,6 +15,23 @@ let m = date.getMonth();
 let d = date.getDate();
 let todate = document.getElementById('day');
 todate.innerHTML = d + '.' + m + '.' + y;
+
+async function getweather() {
+    let mega_super_pretty_res;
+    mega_super_pretty_res = fetch('https://api.openweathermap.org/data/2.5/weather?q=moscow&units=metric&lang=ru&appid=be08447a12674066b618ce41e65e5e6e')
+        .then(data => data.json().then(res => {
+            return res;
+        }))
+        .catch(console.error);
+    return mega_super_pretty_res;
+}
+let weather_today = getweather();
+weather_today.then(res => {
+        console.log(res);
+    })
+    .catch(console.error);
+
+
 but.addEventListener('click', () => {
 
     fetch('https://api.openweathermap.org/data/2.5/weather?q=' + town.value + '&units=metric&lang=ru&appid=be08447a12674066b618ce41e65e5e6e')
