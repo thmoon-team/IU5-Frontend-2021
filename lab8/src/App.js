@@ -19,7 +19,7 @@ function TodosCheckbox ({title, id_todos1, onclk,oncl}){
   return (
     <div id={id_todos1} className="todoboll">
       <div>
-      <input type="checkbox" id={id_todos1} onClick={onclk}></input>
+      <input className="inp" type="checkbox" id={id_todos1} onClick={onclk}></input>
       <label >{title}</label>
       </div>
       <span className="krest" id={id_todos1} onClick={oncl}>x</span>
@@ -81,7 +81,7 @@ function App() {
       <div className="title"><span>My Pretty Todos</span></div>
       <div className="Todos">
         <div className="to_do">
-          <span className="nameform">will be done:</span>
+          <span className="nameform">Will be done:</span>
           <div className="form" id="todos1">
            {titels.map(el =>{
              id_todos++;
@@ -103,7 +103,7 @@ function App() {
         <button className="but_wbd" onClick={()=>{setacc([])}}>Clear done</button>
       </div>
         <div className="to_do">
-          <span className="nameform">done:</span>
+          <span className="nameform">Done:</span>
           <div className="form"> 
           {acc.map(item =>{
             id_todos_done++;
