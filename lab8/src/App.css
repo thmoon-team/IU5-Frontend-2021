@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 50px;
+    font-size: 32px;
+    color: white;
+    background-color: #181818;
+    border-radius: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Todos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+    color: #181818;
+    margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.to_do {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 34%;
 }
 
-.App-link {
-  color: #61dafb;
+.form {
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 2px solid black;
+    height: 300px;
+    color: #545454;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    padding-left: 6px;
+    padding-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#todo {
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    width: 90%;
+}
+
+#todo:focus {
+    outline: none;
+}
+
+.labelclass {
+    text-decoration: line-through;
+}
+
+.krest {
+    color: red;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.done_todos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.but_wbd {
+    height: 80px;
+    width: 200px;
+    color: white;
+    background-color: #181818;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.but_wbd:hover {
+    border-radius: 20px;
+}
+
+.nameform {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.todoboll {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inp {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .title {
+        font-size: 6vw;
+    }
+    .Todos {
+        flex-direction: column;
+    }
+    .buttons {
+        flex-direction: row;
+        justify-content: space-between;
+        order: -1;
+        height: 20vw;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .but_wbd {
+        width: 24vw;
+        font-size: 4vw;
+    }
+    .to_do {
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+        height: 50vw;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-size: 4vw;
+    }
+    .nameform {
+        font-size: 4vw;
+    }
 }
