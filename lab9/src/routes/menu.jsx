@@ -35,7 +35,7 @@ function Menu() {
   
      return(
          <> 
-         <Link to='/' />
+         <NavBar onk={call} dat={dat} />
       <Switch>
         <Route exact path='/' >
           <NavBar onk={call} dat={dat}/>
