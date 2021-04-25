@@ -9,7 +9,7 @@ function Menu() {
     const his =useHistory();
   
     const back = useCallback(()=>{
-      his.replace('/','/about');
+      his.replace('/lab9/build','/lab9/build/about');
     },[his]);
   
     const call =(ev)=>{
@@ -18,11 +18,11 @@ function Menu() {
             localStorage.setItem('input',ev.target.value);
           }
         console.log(ev.target.value);
-        his.push('/about');
+        his.push('/lab9/build/about');
       }
     };
     const err = () =>{
-        his.replace('/error','/about');
+        his.replace('/lab9/build/error','/lab9/build/about');
     }
     const dat =() =>{
         let inp =document.getElementById('inp');
@@ -30,21 +30,20 @@ function Menu() {
             localStorage.setItem('input',inp.value);
         }
         console.log(inp.value);
-        his.push('/about');
+        his.push('/lab9/build/about');
     }
   
      return(
          <> 
-         <NavBar onk={call} dat={dat} />
       <Switch>
-        <Route exact path='/' >
+        <Route exact path='/lab9/build' >
           <NavBar onk={call} dat={dat}/>
         </Route>
-        <Route path='/about' >
+        <Route path='/lab9/build/about' >
           <NavBar oncl={back} />
           <Content  err={err} /> 
         </Route>
-        <Route path='/error' component={PageNotFound} />
+        <Route path='/lab9/build/error' component={PageNotFound} />
       </Switch>
       </>
      );

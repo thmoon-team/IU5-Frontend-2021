@@ -15,7 +15,7 @@ function Content({err}) {
     const [repos,setRepo] = useState([]);
     const [obj,setObj] = useState({});
     let name,com;
-    const his =useHistory('/about');
+    const his =useHistory('/lab9/build/about');
     useEffect(()=>{
     if(localStorage.getItem('input')) {
     let data_name = localStorage.getItem('input');
