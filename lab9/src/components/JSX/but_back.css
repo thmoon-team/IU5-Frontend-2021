@@ -1,0 +1,8 @@
+.but_back {
+    background-color: white;
+    width: 60%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    height: 30px;
+}
