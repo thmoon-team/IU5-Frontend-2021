@@ -15,6 +15,10 @@ function NavBar({oncl, dat,onk}) {
             </div>
             <div className='inp_data'>
                     <Switch>
+                           <input className="inp" type="text" onKeyDown={onk} placeholder='введите имя ползователя...' id='inp' ></input>
+                            <Link to='/about'>
+                            <button className="but_data" onClick={dat} >ok</button>
+                            </Link>
                         <Route exact path='/'>
                             <input className="inp" type="text" onKeyDown={onk} placeholder='введите имя ползователя...' id='inp' ></input>
                             <Link to='/about'>
