@@ -6,9 +6,7 @@ import Menu from './routes/menu'
 
 function App() {
   return (
-    <div className='body' >
       <Menu />
-    </div>
   );
 }
 
