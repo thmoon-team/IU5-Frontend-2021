@@ -1,5 +1,5 @@
 import {React,useCallback} from 'react';
-import {Route,Switch,useHistory} from 'react-router-dom';
+import {Link, Route,Switch,useHistory} from 'react-router-dom';
 import NavBar from '../components/navbar'
 import Content from './content.jsx'
 import PageNotFound from './PaNoFound'
@@ -33,7 +33,9 @@ function Menu() {
         his.push('/about');
     }
   
-     return( 
+     return(
+         <> 
+         <Link to='/' />
       <Switch>
         <Route exact path='/' >
           <NavBar onk={call} dat={dat}/>
@@ -44,6 +46,7 @@ function Menu() {
         </Route>
         <Route path='/error' component={PageNotFound} />
       </Switch>
+      </>
      );
   }
 
