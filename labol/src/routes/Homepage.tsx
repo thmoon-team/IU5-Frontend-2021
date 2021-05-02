@@ -19,14 +19,14 @@ function HomePage() {
         if( ev.key === 'Enter') {
             let str = document.getElementById('inp') as HTMLInputElement;
             dispatch(InputActionEnter(str.value));
-            his.push('/search')
+            his.push('/labol/build/search')
         }
     }
 
     const dat2 = () => {
         let str = document.getElementById('inp') as HTMLInputElement;
         dispatch(InputActionEnter(str.value));
-        his.push('/search')
+        his.push('/labol/build/search')
     }
 
     return(
