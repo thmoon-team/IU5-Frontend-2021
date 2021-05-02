@@ -13,7 +13,7 @@ function Content() {
 
     useEffect(() => {
         dispatch(AppAction(state.inp.data));
-    }, [dispatch,state]);
+    }, [dispatch, state.inp.data]);
 
     const back = useCallback(()=>{
         his.push('/labol/build/');
