@@ -16,11 +16,11 @@ function Content() {
     }, [dispatch]);
 
     const back = useCallback(()=>{
-        his.push('/labol/build/');
+        his.push('/');
     },[his]);
 
     if(state.content.err !=='') 
-        his.push('/labol/build/error');
+        his.push('/error');
 
     if(state.content.loading) return(
         <div>
