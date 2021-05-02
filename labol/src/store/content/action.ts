@@ -4,11 +4,12 @@ import { AppState } from '..';
 import { fetchRequest } from './content';
 import {ThunkAction} from 'redux-thunk';
 
+require('dotenv').config();
 
-const key = process.env.REACT_APP_KEY_API;
+const key = process.env.REACT_APP_API_KEY;
 const obj: RequestInit = {
     headers: {
-        'Authorization' : 'token ' + key
+        'Authorization' : `token `+ key 
     }
 }
 
