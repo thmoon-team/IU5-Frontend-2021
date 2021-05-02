@@ -10,7 +10,7 @@ function PageNotFound() {
 
     const back = useCallback(()=>{
         dispatch(BackAction());
-        his.push('/');
+        his.push('/labol/build/');
     },[dispatch,his]);
 
     return (
