@@ -1,4 +1,4 @@
-import React, { Dispatch } from "react";
+import { Dispatch } from "react";
 import { Action, ActionCreator } from "redux";
 import { ThunkAction } from "redux-thunk";
 import { AppState } from "..";

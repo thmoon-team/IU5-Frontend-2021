@@ -2,7 +2,7 @@
 import { combineReducers } from 'redux';
 import {ContentState} from './content/content';
 import { ContentReduser } from './content/reducer';
-import { InpValue, InpValueState } from './input/inp';
+import { InpValueState } from './input/inp';
 import {InputReducer} from './input/reducer';
 
 export interface AppState {

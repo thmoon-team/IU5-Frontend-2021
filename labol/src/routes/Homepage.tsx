@@ -1,16 +1,11 @@
-import React, { useEffect, useRef, useState } from 'react'
-import { DefaultRootState, useDispatch, useSelector } from 'react-redux';
+import React from 'react'
+import { useDispatch} from 'react-redux';
 import { useHistory, withRouter } from 'react-router';
-import { useTypedSeceltorHook } from '../hooks/typedUseSelector';
-import { AppState, createRootReducer } from '../store';
-import { AppAction } from '../store/content/action';
-import { fetchRequest } from '../store/content/content';
 import { InputActionEnter } from '../store/input/action';
 import './Homepage.css'
 
 
 function HomePage() {
-    const state = useTypedSeceltorHook(store => store)
     const his = useHistory();
     const dispatch = useDispatch();
 

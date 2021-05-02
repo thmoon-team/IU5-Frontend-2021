@@ -1,7 +1,6 @@
 import { Reducer } from "redux";
 import { InpValue, InpValueState } from "./inp";
 import { UserAction} from '../content/reducer'
-import { AnyAction } from "redux";
 import { InpAction } from './inp';
 
 export const initState: InpValue ={

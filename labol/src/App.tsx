@@ -5,9 +5,8 @@ import Homepage from './routes/Homepage';
 import Content from './routes/SearchContent'
 import PageNotFound from './routes/PageNotFound';
 import logo from './ico/icons8-github-50.png';
-import { Store } from 'redux';
-import { Provider } from 'react-redux';
-import {AppState} from './store/index'
+
+
 
 
 const App: React.FC = () => {

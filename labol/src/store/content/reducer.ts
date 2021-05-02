@@ -1,5 +1,4 @@
 import { Reducer } from "redux";
-import { isCommaListExpression } from "typescript";
 import { ContentState, fetchRequest } from "./content";
 
 export const initial: ContentState = {

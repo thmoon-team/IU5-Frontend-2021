@@ -13,7 +13,7 @@ function Content() {
 
     useEffect(() => {
         dispatch(AppAction(state.inp.data));
-    }, [dispatch]);
+    }, [dispatch,state]);
 
     const back = useCallback(()=>{
         his.push('/');

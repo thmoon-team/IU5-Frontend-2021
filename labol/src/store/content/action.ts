@@ -1,10 +1,8 @@
-import { type } from 'node:os';
 import { Action, Dispatch } from 'redux';
-import {ActionCreator,Store} from 'redux';
+import {ActionCreator} from 'redux';
 import { AppState } from '..';
 import { fetchRequest } from './content';
-import {ThunkAction} from 'redux-thunk'
-import { useHistory } from 'react-router';
+import {ThunkAction} from 'redux-thunk';
 
 
 const key = process.env.REACT_APP_KEY_API;
