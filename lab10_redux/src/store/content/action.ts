@@ -5,7 +5,7 @@ import { AppState } from '..';
 import { fetchRequest } from './content';
 import {ThunkAction} from 'redux-thunk'
 import { useHistory } from 'react-router';
-import '../../key.env'
+
 
 const key = process.env.REACT_APP_KEY_API;
 const obj: RequestInit = {

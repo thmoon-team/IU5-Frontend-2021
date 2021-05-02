@@ -7,7 +7,6 @@ import '../components/JS/workflow';
 import './content.css'
 import crown from '../components/crown.png'
 import { useHistory } from 'react-router';
-import '../key.env'
 
 let key = process.env.REACT_APP_API_KEY;
 function Content({err}) {
