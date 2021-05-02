@@ -1,0 +1,46 @@
+.homepage {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inp_class {
+    width: 80%;
+    height: 36px;
+    border-radius: 16px;
+    padding-left: 10px;
+    font-size: 24px;
+    color: #343;
+}
+
+.home_button {
+    width: 18%;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: rgb(35, 134, 54);
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width: 1001px) {
+    .homepage {
+        width: 90%;
+    }
+    .home_button {
+        margin-left: 6px;
+        font-size: 4vw;
+    }
+    .inp_class {
+        font-size: 5vw;
+    }
+}

@@ -19,7 +19,10 @@ function Content({err}) {
     useEffect(()=>{
     if(localStorage.getItem('input')) {
     let data_name = localStorage.getItem('input');
-    fetch('https://api.github.com/users/'+ data_name).then(data=>data.json().then(data=>{
+    fetch('https://api.github.com/users/'+ data_name
+    ,{
+      Authorization: 'Token ' +key
+    }).then(data=>data.json().then(data=>{
         setObj(data);
         if (data.message !== "Not Found"){
         console.log('z tut');
