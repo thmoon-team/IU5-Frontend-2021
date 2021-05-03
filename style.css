@@ -26,14 +26,15 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 400px;
+    /* height: 400px; */
 }
 
 .collum1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     width: 800px;
+    align-items: center;
 }
 
 .herf {
@@ -41,11 +42,12 @@ body {
     align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 250px;
+    width: 80%;
     background-color: white;
     border-radius: 8px;
-    height: 80px;
+    height: 40px;
     color: #5c5c5c;
+    margin-bottom: 10px;
 }
 
 .herf :hover {
@@ -70,13 +72,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 200px;
     align-items: center;
+    margin-top: 10px;
 }
 
 .cherta {
     height: 8px;
     border-radius: 8px;
+    margin-bottom: 20px;
     width: 100%;
     background-color: #5c5c5c;
 }
@@ -93,4 +96,28 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 150px;
+    margin-bottom: 20px;
+}
+
+#none {
+    display: none;
+}
+
+@media screen and (max-width: 1001px) {
+    .contacts {
+        flex-direction: column;
+        font-size: 4vw;
+    }
+    .collum1 {
+        width: 100%;
+    }
+    #none {
+        display: block;
+    }
+    .header-text {
+        font-size: 10vw;
+    }
+    .header {
+        height: 80px;
+    }
 }
