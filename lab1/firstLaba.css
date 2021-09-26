@@ -6,9 +6,10 @@
     color: gray; 
     margin-bottom: -0mm; 
    } 
-   .name1 { 
+   #name1 { 
     font-weight: bolder; 
     font-size: 25px; 
+    color: blue;
    } 
    .name2 { 
     font-weight: bolder; 
@@ -21,9 +22,13 @@
     font-weight: bolder; 
     font-size: 24px; 
    } 
-   .paragpaph_three { 
-    margin-bottom: -2mm; 
-   } 
+   .paragpaph_three {
+    padding-bottom: 50px;  
+   }
+   .paragpaph_three:first-child {
+    color: red;
+    min-width: 100px;
+   }
    .name4 { 
     font-weight: bolder; 
     font-size: 24px; 
